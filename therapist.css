@@ -1,0 +1,58 @@
+.find-section {
+    padding: 6.319444444444445vw 0 0 0;
+}
+.therapist-faq-title {
+    padding: 3.0555555555555554vw 0;
+}
+
+.bck-btn img.attachment-full.size-full.wp-image-10090 {
+    margin-right: 0.6944444444444444vw;
+    vertical-align: middle;
+    margin-top: -0.2777777777777778vw;
+}
+
+.bck-btn > div > div{
+    align-items: center !important;
+}
+
+.bck-btn > div > div img{
+    width: 70% !important;
+}
+
+@media only screen and (min-width: 1440px) {
+.find-col-text {
+    max-width: 52.77777777777778vw;
+    line-height: 2.083333333333333vw;
+}
+}
+@media (max-width: 1280px) {
+  .find-col-text {
+      line-height:2.34375vw;
+}
+}
+
+@media (max-width: 1024px) {
+.find-col-text {
+    line-height:2.9296875vw;
+}
+.bck-btn img.attachment-full.size-full.wp-image-10090 {
+    margin-right:10px;
+}
+
+.bck-btn > div > div > div{
+    padding-top: 2px;
+}
+}
+@media (max-width: 768px) {
+.bck-btn img.attachment-full.size-full.wp-image-10090 {
+    margin-top: 3px;
+}}
+@media (max-width: 414px) {
+.bck-btn img.attachment-full.size-full.wp-image-10090 {
+    margin-right: 10px;
+    margin-top: 3px;
+}
+    .bck-btn > div > div{
+        display: flex;
+    }
+}

@@ -1,0 +1,170 @@
+
+.user-faq-detail{
+    margin-bottom: 8.347222222222222vw !important;
+}
+.user-faq-detail h1{
+	line-height: 4.930555555555555vw;
+	padding-top: 5.347222222222222vw;
+	padding-bottom: 5.555555555555555vw;
+}
+
+
+.getting-started-left-col .getting-started-text{
+    margin-bottom: 4.166666666666666vw;
+}
+.getting-started-left-col .getting-started-text ul li {
+	line-height: 1.6666666666666667vw;
+	letter-spacing: -0.022222222222222223vw;
+	padding-bottom: 1.1805555555555556vw;
+
+}
+
+.getting-started-left-col .elementor-sticky--active{
+    z-index: 1 !important;
+}
+.getting-started-left-col ul.elementor-icon-list-items {
+    padding: 1.9444444444444444vw 0 1.5277777777777777vw 1.875vw !important;
+    margin-bottom: 4.166666666666666vw !important;
+}
+
+.getting-started-right-col{
+	padding-left: 5.069444444444445vw;
+	width: 81vw !important;
+}
+.getting-started-right-col h2{
+	line-height: 2.986111111111111vw;
+	letter-spacing: -0.022222222222222223vw;
+	padding-bottom: 1.7361111111111112vw;
+}
+
+.getting-started-right-col h3{
+	line-height: 1.6666666666666667vw;
+	padding-top: 1.597222222222222vw;
+	padding-bottom: 0.625vw;
+}
+
+.getting-started-right-col .getting-right-text > div{
+	line-height: 1.6666666666666667vw;
+	padding-bottom: 2.7777777777777777vw;
+}
+
+.getting-started-right-col .last-divider{
+	padding-bottom: 4.027777777777778vw;
+}
+
+
+@media (max-width:1280px){
+	.getting-started-right-col .getting-right-text > div {
+    line-height: 1.866667vw;
+    padding-bottom: 2.7777777777777777vw;
+}
+}
+@media (max-width:1024px){
+	.getting-started-left-col .getting-started-text ul li {
+    line-height: 1.8666666666666667vw;
+}
+
+.getting-started-right-col {
+    padding-left: 5.069444444444445vw;
+    width: 68vw !important;
+}
+
+.getting-started-right-col h3 {
+    line-height: 2.666667vw;
+    padding-top: 1.597222222222222vw;
+    padding-bottom: 0.625vw;
+}
+.getting-started-right-col .getting-right-text > div {
+    line-height: 2.566667vw;
+    padding-bottom: 2.7777777777777777vw;
+}
+}
+
+@media (max-width:1024px){
+
+.getting-started-left-col {
+   width: 23vw !important;
+} 
+
+.getting-started-right-col {
+    padding-left: 5.069444444444445vw;
+    width: 62vw !important;
+}
+}
+
+
+@media (max-width:768px){
+
+
+.user-faq-detail h1 {
+    line-height: 4.930555555555555vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.user-faq-detail{
+    margin-bottom: 30px !important;
+}
+
+.getting-started-left-col ul.elementor-icon-list-items, .getting-started-left-col .getting-started-text{
+    margin-bottom: 0 !important;
+}
+.getting-started-right-col {
+    padding-left: 5.069444444444445vw;
+    width: 100vw !important;
+}
+.getting-started-right-col h3 {
+    line-height: 28px;
+}
+.getting-started-left-col .getting-started-text ul li {
+    line-height: 3.66667vw;
+}
+
+.getting-started-right-col .getting-right-text > div {
+    line-height: 24px;
+}
+
+.getting-started-right-col h2 {
+    line-height: 43px;
+}
+
+.getting-started-right-col {
+    padding-left: 0;
+   
+}
+.getting-started-left-col {
+    width: 100vw !important;
+}
+
+}
+
+
+@media (max-width:414px){
+
+.getting-started-left-col ul.elementor-icon-list-items {
+    padding: 4.944444vw 0 4.527778vw 4.875vw !important;
+}
+
+.user-faq-detail h1 {
+    line-height: 40px !important;
+    padding: 20px 0;   
+}
+
+.getting-started-right-col h2 {
+    
+    padding: 20px 0 !important;
+}
+
+.getting-started-right-col h3 {
+    
+     padding: 10px 0 0 0  !important;
+}
+
+.getting-started-right-col .getting-right-text > div {
+    line-height: 24px !important;
+    padding: 10px 0 !important;
+}
+
+.user-faq-detail{
+    margin-bottom: 0px !important;
+}
+}

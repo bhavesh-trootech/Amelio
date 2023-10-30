@@ -1,0 +1,963 @@
+.career-top-section {
+    padding-top: 10vw !important;
+    padding-bottom: 4vw !important;
+    margin-top: 0vw;
+}
+.careerLink a:hover {
+    color: #FFFFFF;
+    background-color: #165342;
+    border-color: #0000001F;
+}
+/* .career-top-section .career-text h2 {
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    margin-bottom: 1.3888888888888888vw;
+} */
+
+.career-last {
+    margin: 1.5vw 0 10vw 0;
+}
+
+/* .career-top-section .career-subtext h1 {
+    font-size: 3.3333333333333335vw;
+    max-width: 51.388888888888886vw;
+    margin: 0 auto 1.0416666666666665vw !important;
+    line-height: 3.75vw;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #181818;
+} */
+
+.our-values h6 {
+    padding: 0.6vw 0px 0.4vw 0;
+}
+
+.career-img img {
+    max-width: 100%;
+    width: 100%;
+    margin-top: -18.44vw;
+}
+
+.two-img-section {
+    margin: 7.2vw 0 10.1vw 0;
+}
+
+.two-img-section .two-clm-txt{
+    line-height: 2.013888888888889vw;
+    padding-top: 0.6944444444444444vw;
+}
+.two-img-section a{
+    line-height: 24px;
+}
+
+.careers-our-values h2{
+    letter-spacing: -0.02em;
+    line-height: 3.8194444444444446vw;
+}
+
+.careers-our-values h6, .three-clm-sec h6{
+    padding-bottom: 0.7638888888888888vw;
+    line-height: 1.875vw;
+    letter-spacing: -0.01em;
+}
+
+.careers-our-values .values-txt, .three-clm-sec .values-txt{
+    line-height: 1.6666666666666667vw;
+}
+.three-clm-sec h2{
+    line-height: 3.8194444444444446vw;
+}
+
+.testi-background h2{
+    line-height: 3.75vw;
+    letter-spacing: -0.02em;
+}
+
+.Open-opportunities-sec h2{
+    line-height: 3.8194444444444446vw;
+}
+/* Two overlappes images*/
+
+.career-first-img img {
+    width: 28vw;
+    border-radius: 0.6vw !important;
+}
+
+.career-second-img img {
+    width: 22vw;
+    border-radius: 0.6vw !important;
+}
+
+/* Two overlapped images end */
+.btn-top {
+    padding-bottom: 19.75vw;
+}
+
+.career-two-clm {
+    padding: 0 6.4vw;
+    /*padding-top: 4vw;*/
+}
+
+.two-clm-txt {
+    padding-bottom: 2.1vw;
+}
+
+.values-title {
+    padding-bottom: 2.1vw;
+}
+
+.values-txt {
+    line-height: 1.66vw;
+}
+
+.three-clmn {
+    padding: 0 3.4vw;
+}
+
+.three-clm-sec {
+    padding: 7.8vw 0 7vw 0;
+}
+
+.three-clm-inner {
+    padding-top: 4.1vw;
+}
+
+.wave-img {
+    padding: 3.47vw 0;
+}
+
+.career-btn a {
+    padding: 0.8vw 1.2vw;
+    border-radius: 6.8vw !important;
+}
+
+.case-study-title {
+    padding-bottom: 2.1vw;
+    font-size: 3.33vw;
+    padding-top: 2.8vw;
+}
+
+.testi-card {
+    padding-bottom: 5.34vw;
+}
+
+
+
+.entry-content p {
+    margin-bottom: 0 !important;
+}
+
+/*.entry-content p:not(.woocommerce-LostPassword) {
+    width: 100%;
+}*/
+
+.testi-card .elementor-swiper-button {
+    top: 80.5%;
+    text-align: end;
+    display: block;
+}
+
+.testi-card .elementor-swiper-button-prev {
+    left: initial;
+    right: 10.41vw;
+}
+
+.testi-card .elementor-swiper-button-next {
+    right: 6.94vw !important;
+}
+
+.testi-card i::before {
+    font-size: 1.5vw;
+}
+
+.testi-card .elementor-swiper-button-prev i {
+    background-color: #acb9b5;
+    padding: 0.8vw;
+    border-radius: 3.61vw;
+}
+
+.testi-card .elementor-swiper-button-next i {
+    background-color: #165342;
+    padding: 0.8vw;
+    border-radius: 3.61vw;
+}
+
+.testi-background {
+    padding-bottom: 4.7vw;
+}
+
+.testi-background .elementor-background-overlay {
+    background-position: bottom -4.16vw left 0vw !important;
+}
+
+/* New Testi CSS */
+
+
+.testi-background .elementor-background-overlay {
+    background-size: 28% 80% !important;
+}
+
+.testimonial-slider {
+    background-color: #FFF;
+    width: 74.16vw;
+    margin: 0 auto;
+}
+
+.testimonial-box {
+    padding: 3.33vw 3.33vw 2.7vw 3vw;
+    display: flex !important;
+    flex-wrap: wrap;
+    background-image: url(/wp-content/uploads/2022/12/unnamed-file.png);
+    background-repeat: no-repeat;
+    background-position: 57% 12%;
+    background-size: 10vw;
+}
+
+.left-col {
+    width: 50%;
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 32vw;
+    padding-top: 2.8vw;
+    padding-bottom: 1.5vw;
+    padding-left: 26px;
+}
+
+.slick-prev {
+    right: 13%;
+    left: unset !important;
+    z-index: 999;
+}
+
+.slick-next {
+    right: 6.3% !important;
+    z-index: 999;
+}
+
+.slick-arrow {
+    position: absolute;
+    bottom: 0;
+}
+
+.slick-next,
+.slick-prev {
+    top: unset !important;
+    bottom: 16% !important;
+}
+
+.testimonial-slider .slick-prev:before {
+    content: "" !important;
+    background-color: transparent;
+    font-family: inherit;
+    font-weight: inherit;
+    width: 24px;
+    height: 24px;
+    background-image: url(/wp-content/uploads/2022/12/Group-6549.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    padding: 10px;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.testimonial-slider .slick-next:before {
+    content: "" !important;
+    background-color: transparent;
+    color: #fff !important;
+    font-family: inherit;
+    font-weight: inherit;
+    width: 24px;
+    height: 24px;
+    background-image: url(/wp-content/uploads/2022/12/Group-1-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    padding: 10px;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.testimonial-slider .slick-next,
+.testimonial-slider .slick-prev {
+    background-color: #165342;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.testimonial-slider .slick-next.slick-disabled,
+.testimonial-slider .slick-prev.slick-disabled {
+    background-color: #1653424d !important;
+}
+
+.testimonial-slider .slick-next:hover,
+.testimonial-slider .slick-prev:hover {
+    background-color: #165342;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: #165342 !important;
+    font-size: 0vw !important;
+    opacity: 1 !important;
+
+}
+
+.testiContent p {
+    font-family: "P22Mackinacpro", Sans-serif;
+    font-size: 1.8055555555555554vw;
+    line-height: 2.4vw;
+    color: #181818;
+}
+
+.bubble-testi-img img {
+    width: 29.8vw !important;
+    height: auto !important;
+}
+
+.testi-name {
+    color: #000000;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 1.25vw;
+    font-weight: 700;
+}
+
+.testi-positions {
+    text-align: left;
+    font-family: "Open Sans", Sans-serif;
+    font-size:1.0416666666666665vw;
+    font-weight: 400;
+    line-height: 1.71vw;
+    color: #000000;
+}
+
+.career-top-section .career-text h2 {
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    margin-bottom: 1.3888888888888888vw;
+}
+
+.career-top-section .career-subtext h1 {
+    font-size: 3.3333333333333335vw;
+    line-height: 3.75vw;
+    max-width: 51.388888888888886vw;
+    margin: 0 auto 1.5vw !important;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #181818;
+}
+
+.career-last .elementor-widget-container {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.0416666666666665vw;
+    line-height: 1.6666666666666667vw;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+/****/
+.carrer-content {
+    display: none;
+}
+
+.carrer-box:first-child .carrer-content {
+    display: block;
+
+}
+
+
+
+.careerSectionInner .carrer-box {
+    margin-bottom: 0.6944444444444444vw;
+}
+
+.carrer-content .careerContent p {
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    font-size: 1.0416666666666665vw;
+    line-height: 1.6666666666666667vw;
+    color: #181818cc;
+    margin-bottom: 1.9444444444444444vw !important;
+}
+
+.carrer-box.active .carrer-toggle .plusToggle {
+    display: none;
+}
+
+.carrer-box .minusToggle {
+    display: none;
+}
+
+.carrer-box.active .carrer-toggle .minusToggle {
+    display: inline-block;
+}
+
+.carrer-toggle {
+    display: block;
+}
+
+/****/
+.carrer-box {
+    background: #E2DFD6;
+    border-radius: 4px;
+}
+
+.carrer-box.active {
+    background: #fff;
+}
+
+.carrer-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.083333333333333vw 2.9166666666666665vw 1.3888888888888888vw;
+}
+
+.carrer-content {
+    padding: 0 8.472222222222223vw 2.569444444444444vw 2.9166666666666665vw;
+}
+
+.carrer-toggle.activeToggle {
+    background: #165342;
+    border: 1px solid #165342;
+}
+
+.carrer-toggle.activeToggle img {
+    filter: brightness(15);
+}
+
+.carrer-toggle {
+    width: 4.166666666666666vw;
+    height: 4.166666666666666vw;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 0.6944444444444444vw;
+    cursor: pointer;
+    border: 1px solid #181818;
+    background: transparent;
+}
+
+.carrer-toggle img {
+    width: 1.1111111111111112vw;
+    height: 1.1111111111111112vw;
+    /* filter: brightness(15); */
+}
+
+.careerTitleInner {
+    display: flex;
+}
+
+.careerTitleInner .work-location,
+.careerTitleInner .work-time {
+    display: flex;
+    align-items: flex-start;
+}
+
+.careerTitleInner .work-location {
+    margin-right: 28px;
+}
+
+.careerTitleInner .work-location img,
+.careerTitleInner .work-time img {
+    width: 1.6666666666666667vw;
+    height: 1.6666666666666667vw;
+}
+
+.carrer-title {
+    font-family: "P22Mackinacpro", Sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8055555555555554vw;
+    line-height: 2.569444444444444vw;
+    letter-spacing: -0.03em;
+    color: #1A1A1A;
+    margin-bottom: 0.3472222222222222vw !important;
+}
+
+.careerTitleInner .work-location h4,
+.careerTitleInner .work-time h4 {
+    font-family: "Open Sans", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.0416666666666665vw;
+    line-height: 1.6666666666666667vw;
+    color: #181818;
+    margin: 0;
+}
+
+.careerTitleInner .work-location img,
+.careerTitleInner .work-time img {
+    margin-right: 0.625vw;
+}
+
+.careerLink a {
+    font-family: "Open Sans", Sans-serif;
+    padding: 0.625vw 1.875vw;
+    font-weight: 600;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.5277777777777777vw;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #165342;
+    border: 1px solid #165342;
+    border-radius: 4.375vw;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+
+/* Media Query Start */
+
+@media (max-width: 1280px) {
+
+    .slick-next {
+        right: 5.8% !important;
+
+    }
+    .career-last .elementor-widget-container {
+        font-size: 1.171875vw;
+    }
+}
+
+@media (max-width: 1199px) {
+    .slick-next {
+        right: 4.8% !important;
+    }
+    .career-top-section .career-subtext h1 {
+        font-size: 4.0033361134278564vw;
+        line-height: 4.5037531276063385vw;
+        max-width: 61.71809841534612vw;
+        margin: 0 auto 1.2510425354462051vw !important;
+    }
+
+    .career-top-section .career-text h2 {
+        font-size: 1.3344453711426187vw;
+        line-height: 2.0016680567139282vw;
+        margin-bottom: 1.6680567139282736vw;
+    }
+
+    .carrer-content .careerContent p {
+        font-size: 1.2510425354462051vw;
+        line-height: 2.0016680567139282vw;
+    }
+
+    .careerTitleInner .work-location h4,
+    .careerTitleInner .work-time h4 {
+        font-size: 1.2510425354462051vw;
+        line-height: 2.0016680567139282vw;
+    }
+
+    .carrer-title {
+        margin-bottom: 0.8340283569641368vw !important;
+    }
+
+
+}
+
+
+@media (max-width: 1024px) {
+.slick-prev {
+    right: 15%;
+ }    
+.slick-next {
+    right: 5.3% !important;
+ }    
+    .careers-our-values .values-txt, .three-clm-sec .values-txt {
+        line-height: 2vw;
+    }
+
+    .three-clmn {
+        padding: 0 10px;
+    }
+    .testimonial-box {
+        padding: 3.33vw 3.33vw 6.7vw 3vw;
+    }
+
+    .career-last .elementor-widget-container {
+        font-size: 1.46484375vw;
+    }
+    .career-top-section .career-subtext h1 {
+        font-size: 4.1015625vw;
+        line-height: 4.8828125vw;
+        max-width: 72.265625vw;
+        margin: 0 auto 1.46484375vw !important;
+    }
+
+    .career-top-section .career-text h2 {
+        font-size: 1.5625vw;
+        line-height: 2.34375vw;
+        margin-bottom: 1.953125vw;
+    }
+
+    .careerTitleInner .work-location img,
+    .careerTitleInner .work-time img {
+        width: 2.34375vw;
+        height: 2.34375vw;
+    }
+
+    .carrer-title {
+        font-size: 2.5390625vw;
+        line-height: 3.3203125vw;
+    }
+
+    .careerTitleInner .work-location {
+        margin-right: 2.734375vw;
+    }
+
+    .carrer-header {
+        padding: 2.9296875vw 4.1015625vw 1.953125vw;
+    }
+
+    .carrer-content {
+        padding: 0 4.1015625vw 2.9296875vw;
+    }
+
+
+    .careerLink a {
+        padding: 0.87890625vw 2.63671875vw;
+        font-weight: 600;
+        font-size: 1.5625vw;
+        line-height: 2.1484375vw;
+        border-radius: 6.15234375vw;
+    }
+
+    .carrer-content .careerContent p {
+        font-size: 1.46484375vw;
+        line-height: 2.34375vw;
+        margin-bottom: 2.734375vw !important;
+    }
+
+    .carrer-toggle {
+        width: 5.859375vw;
+        height: 5.859375vw;
+        margin-left: 0.9765625vw;
+    }
+
+    .carrer-toggle img {
+        width: 1.5625vw;
+        height: 1.5625vw;
+    }
+
+    .careerTitleInner .work-location h4,
+    .careerTitleInner .work-time h4 {
+        font-size: 1.46484375vw;
+        line-height: 2.34375vw;
+    }
+
+    .careerSectionInner .carrer-box {
+        margin-bottom: 0.9765625vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .testi-card .elementor-swiper-button-prev {
+        right: 110px;
+    }
+
+    .testi-card .elementor-swiper-button-prev i {
+        padding: 12px;
+        border-radius: 50%;
+    }
+
+    .career-last-txt {
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+}
+@media (max-width: 890px){
+.slick-next {
+    right: 4.3% !important;
+}   
+}
+
+@media(min-width:768px) {
+    .career-top-section {
+        padding-top: 14vw !important;
+        padding-bottom: 7vw !important;
+        margin-top: -11vw;
+    }
+
+    .bubble-img img {
+        width: 7.24vw;
+        height: 6.80vw;
+    }
+}
+
+@media(max-width:768px) {
+    .loginpagesec .login-message{
+        margin-top: 20px;
+    }
+
+    .careers-our-values h6, .three-clm-sec h6 {
+        line-height: 24px;
+        letter-spacing: -0.01em;
+    }
+    .career-last .elementor-widget-container {
+        font-size: 16px !important;
+    }
+
+    .career-top-section .career-text h2 {
+        font-size: 20px;
+    }
+
+    .values-txt {
+        line-height: 26px;
+    }
+
+    .career-last-txt {
+        font-size: 16px !important;
+        line-height: 26px !important;
+    }
+
+    .testimonial-box {
+        display: block !important;
+    }
+
+    .left-col {
+        width: 100%;
+    }
+
+    .right-col {
+        width: 100%;
+        display: block !important;
+        max-width: 100%;
+    }
+
+    .testi-positions {
+        font-size: 18px !important;
+        text-align: left !important;
+    }
+
+    .testiContent p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .testi-name {
+        font-size: 18px;
+        padding-bottom: 10px !important;
+    }
+
+    .testimonial-box {
+        padding: 6.33vw;
+    }
+
+    .slick-list {
+        padding: 0 0 0 0 !important;
+    }
+
+    .bubble-testi-img img {
+        width: 100% !important;
+    }
+
+    .slick-next,
+    .slick-prev {
+        top: unset !important;
+        bottom: 4% !important;
+        font-size: 20px !important;
+        padding: 12px 20px !important;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 20px !important;
+        padding: 12px 20px !important;
+    }
+
+    .slick-prev {
+        right: 20%;
+    }
+
+    .slick-next {
+        right: 8.3% !important;
+        z-index: 999;
+    }
+
+    .testimonialBtmInfo {
+        margin-top: 30px;
+    }
+    .two-img-section {
+        margin: 40px 0;
+    }
+    .career-last .elementor-widget-container {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .career-top-section .career-subtext h1 {
+        font-size: 36px;
+        line-height: 42px;
+        max-width: 100%;
+        margin: 0 auto 15px !important;
+    }
+
+    .career-top-section .career-text h2 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .careerTitleInner .work-location img,
+    .careerTitleInner .work-time img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .carrer-title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 10px !important;
+    }
+
+    .careerTitleInner .work-location {
+        margin-right: 15px;
+    }
+
+    .carrer-header {
+        padding: 20px 20px 20px;
+    }
+
+    .carrer-content {
+        padding: 0 20px 30px;
+    }
+
+    .careerSectionInner .carrer-box {
+        margin-bottom: 10px;
+    }
+
+    .carrer-toggle {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        margin-left: 10px;
+    }
+
+    .carrer-toggle img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .careerTitleInner .work-location h4,
+    .careerTitleInner .work-time h4 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .carrer-content .careerContent p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 25px !important;
+    }
+
+    .careerLink a {
+        font-family: "Open Sans", Sans-serif;
+        padding: 9px 27px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        border-radius: 63px;
+    }
+}
+
+@media(max-width:640px) {
+    .slick-next {
+        right: 5.3% !important;
+
+    }
+}
+@media(max-width:540px) {
+    .three-clmn {
+        width: 100% !important;
+    }
+
+    .slick-next {
+        right: 10% !important;
+
+    }
+
+    .slick-prev {
+        right: 26% !important;
+    }
+
+    .career-last .elementor-widget-container {
+        font-size: 14px !important;
+    }
+
+    .testimonial-slider {
+        width: auto;
+    }
+
+    .testimonial-box {
+        padding: 20px 10px;
+    }
+
+    .right-col {
+        padding-left: 0;
+    }
+}
+
+@media(max-width:415px) {
+
+
+    .slick-next {
+        right: 8.6% !important;
+
+    }
+    .three-clmn {
+        width: 100% !important;
+    }
+
+    .three-clmn {
+        padding: 0 10px;
+    }
+
+    .career-second-img {
+        position: relative !important;
+    }
+
+    .career-first-img img {
+        width: 100%;
+    }
+
+    .career-second-img img {
+        width: 100%;
+    }
+
+    .career-two-clm {
+        padding-top: 4vw;
+    }
+
+    .career-two-clm {
+        padding: 40px 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+

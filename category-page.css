@@ -1,0 +1,198 @@
+.category-container .ast-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2.083333333333333vw 1.388vw;
+}
+
+
+
+.test56 {
+    display: none;
+}
+
+.blogLoop .post-thumb-img-content.post-thumb img {
+    width: 20.48611vw;
+    height: 13.889vw;
+    object-fit: cover;
+    border-radius: 4px;
+
+}
+
+.category-container {
+    max-width: 86.11vw;
+    padding: 0;
+    padding-bottom: 8.611vw;
+}
+
+.blogLoop .entry-title {
+    margin: 0;
+}
+
+.titleCategory h1 {
+    font-family: 'P22MackinacPro';
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 4.93055vw;
+    letter-spacing: -0.0446vw;
+    color: #181818;
+    padding-bottom: 5.69445vw;
+}
+
+.topicTag {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.667vw;
+    letter-spacing: -0.0223vw;
+    color: #165342;
+    padding-bottom: 1.388vw;
+}
+
+.blogLoop h2.entry-title a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3888888888888888vw;
+    line-height: 2.083333333333333vw;
+    letter-spacing: -0.01112vw;
+    color: #181818;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+.blogLoop .cat-links a {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.0416666666666665vw;
+    line-height: 1.6666666666666667vw;
+    color: #181818;
+    padding-bottom: 0.4166666666666667vw;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+.blogLoop .post-content.ast-grid-common-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogLoop .entry-header {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .category-container .ast-row {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2.9296875vw 1.953125vw;
+    }
+
+    .blogLoop .post-thumb-img-content.post-thumb img {
+        width: 28.80859375vw;
+        height: 19.53125vw;
+    }
+
+    .titleCategory h1 {
+        font-size: 7.03125vw;
+        line-height: 6.93359375vw;
+        letter-spacing: -0.0625vw;
+        padding-bottom: 8.0078125vw;
+    }
+
+    .topicTag {
+        font-size: 1.5625vw;
+        line-height: 2.34375vw;
+        letter-spacing: -0.03125vw;
+        padding-bottom: 1.953125vw;
+    }
+
+    .blogLoop h2.entry-title a {
+        font-size: 1.953125vw;
+        line-height: 2.9296875vw;
+        letter-spacing: -0.015625vw;
+    }
+
+    .blogLoop .cat-links a {
+        font-size: 1.46484375vw;
+        line-height: 2.34375vw;
+        padding-bottom: 0.5859375vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .category-container .ast-row {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px 20px;
+    }
+
+    .blogLoop .post-thumb-img-content.post-thumb img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .titleCategory h1 {
+        font-size: 56px;
+        line-height: 57px;
+        letter-spacing: -0.04em;
+        padding-bottom: 52px;
+    }
+
+    .topicTag {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+
+    .blogLoop h2.entry-title a {
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -0.01em;
+    }
+
+    .blogLoop .cat-links a {
+        font-size: 15px;
+        line-height: 24px;
+        padding-bottom: 6px;
+    }
+}
+
+@media (max-width: 414px) {
+
+     .category .category-container {
+        padding: 0 !important;
+        margin: 0;
+        max-width: 100%;
+    }
+    .category-container div#primary {
+        padding: 1.5em 20px 60px 20px !important;
+    }
+
+    .page-id-10610 .category-container div#primary {
+        padding: 0 !important;
+    }
+
+    .titleCategory h1 {
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: -0.04em;
+        padding-bottom: 40px;
+    }
+
+    .category-container {
+        padding: 0 !important;
+    }
+
+    .category-container .ast-row {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px 20px;
+    }
+
+    .blogLoop .post-thumb-img-content.post-thumb img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}

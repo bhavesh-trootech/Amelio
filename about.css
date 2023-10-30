@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    /* about hero section */
+
+.about-hero-section {
+        padding: 9.027vw 0 12.7vw 0;
+}
+
+.about-mission {
+    padding: 0 0 1.38vw 0;
+    line-height: 1.66vw;
+}
+
+
+/* about-content */
+
+
+.about-content {
+    padding: 7.08vw 0 4.375vw 0;
+}
+
+.about-content h3 {
+    line-height: 120%;
+}
+
+.about-hero-vector {
+    padding: 5.27vw 0 0 0;
+}

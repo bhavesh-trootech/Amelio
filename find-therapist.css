@@ -1,0 +1,304 @@
+
+body.toggleOpenMenu {
+    overflow-y: hidden;
+}
+.therapistpagetitle h1 {
+    line-height: 4.930555555555555vw;
+    padding-bottom: 0.6944444444444444vw;
+    letter-spacing: -0.044444444444444446vw;
+}
+.shortBio p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.therapist-faq-section {
+    padding-top: 3.888888888888889vw;
+    padding-bottom: 10.277777777777777vw;
+}
+.therapist-faq-title h3 {
+    line-height: 2.986111111111111vw;
+    letter-spacing: -0.022222222222222223vw;
+}
+.therapist-user .loadMoreRepeat.blogLoop {
+    box-shadow: 0px 0.2777777777777778vw 0.8333333333333334vw rgb(0 0 0 / 16%);
+    border-radius: 0.5555555555555556vw;
+}
+.dcsLoaderImg.therapistPageLoder {
+    position: relative;
+    height: auto;
+    display: block;
+    margin-bottom: 50px;
+    float: left;
+}
+.therapist-user .post-thumb-img-content.post-thumb {
+    text-align: center;
+}
+
+.therapist-user .authorExcerpt {
+    background: #FFFFFF;
+    border-radius: 0 0 0.5555555555555556vw 0.5555555555555556vw;
+    padding: 2.013888888888889vw 2.2222222222222223vw 1.6666666666666667vw 1.6666666666666667vw !important;
+}
+.therapist-user .btnLoadmoreWrapper {
+    padding-bottom: 4.513888888888888vw;
+}
+
+.therapist-user .ast-blog-featured-section {
+       margin-bottom: 0;
+     padding-top: 0; 
+    height: 16.11111111111111vw;
+    display: flex;
+        flex-direction: column;
+    justify-content: end;
+    line-height: 0;
+}
+
+.therapist-user img.avatar {
+    object-fit: contain;
+}
+.therapist-user .blogLoop .post-thumb-img-content.post-thumb img{
+    height: 16.11111111111111vw;
+        width: auto;
+}
+
+.therapist-user .authorExcerpt h3 a {
+    font-family: 'P22MackinacPro';
+    font-weight: 400;
+    font-size: 1.8055555555555554vw;
+    line-height: 2.430555555555556vw;
+    letter-spacing: -0.03333333333333333vw;
+    color: #181818;
+    text-transform: capitalize;
+    text-decoration-line: none !important;
+}
+
+.therapist-user .authorExcerpt h3 {
+    margin: 0 !important;
+}
+
+.therapist-user .blog-layout-1 {
+       padding-bottom: 0;
+    border-bottom: unset;
+    display: flex;
+      flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.therapist-user .blogLoop .post-content.ast-grid-common-col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: end;
+}
+.therapist-user .dcsDemoWrapper.ast-row {
+    grid-gap: 1.3888888888888888vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.therapist-user .dcsAllPostsWrapper {
+    padding: 3.8194444444444446vw 0;
+}
+
+.therapist-user .dcsDemoWrapper .loadMoreRepeat {
+    padding: 0;
+}
+
+.shortBio {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.0416666666666665vw;
+    line-height: 1.6666666666666667vw;
+    color: #181818;
+    padding-bottom: 1.25vw;
+}
+
+a.findOutMoreBtn {
+    border: 0.06944444444444445vw solid #165342;
+    border-radius: 4.375vw;
+    padding: 0.5555555555555556vw 16px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    letter-spacing: -0.022222222222222223vw;
+    color: #165342;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+a.findOutMoreBtn:hover {
+    color: #FFFFFF;
+    background-color: #165342;
+    border-color: #165342;
+}
+
+a.btn.btn-primary.dcsLoadMorePostsbtnTherapist {
+    border: 0.06944444444444445vw solid #165342;
+    border-radius: 4.375vw;
+    padding: 0.9722222222222222vw 1.6666666666666667vw;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    display: inline-block;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    text-align: center;
+    letter-spacing: -0.022222222222222223vw;
+    color: #165342;
+    text-decoration: none !important;
+}
+
+a.btn.btn-primary.dcsLoadMorePostsbtnTherapist:hover {
+    color: #FFFFFF;
+    background-color: #165342;
+    border-color: #165342;
+}
+
+@media only screen and (max-width: 1280px){
+.therapist-user .dcsDemoWrapper.ast-row {
+    grid-gap: 1.5625vw;
+}
+.therapistpagetitle h1 {
+    line-height: 5.546875vw;
+    padding-bottom: 0.78125vw;
+    letter-spacing: -0.05vw;
+}    
+.therapist-user .authorExcerpt {
+    border-radius: 0 0 0.625vw 0.625vw;
+    padding: 2.265625vw 2.5vw 1.875vw 1.875vw !important;
+}
+.therapist-user .authorExcerpt h3 a {
+    font-size: 2.03125vw;
+    line-height: 2.65625vw;
+    letter-spacing: -0.0375vw;
+}
+.shortBio {
+    font-size: 1.171875vw;
+    line-height: 1.875vw;
+    padding-bottom: 1.40625vw;
+}
+
+a.findOutMoreBtn {
+    border: 0.078125vw solid #165342;
+    border-radius: 4.921875vw;
+    padding: 0.625vw 1.25vw;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
+    letter-spacing: -0.025vw;
+}
+a.btn.btn-primary.dcsLoadMorePostsbtnTherapist {
+    border: 0.078125vw solid #165342;
+    border-radius: 4.921875vw;
+    padding: 1.09375vw 1.875vw;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
+    letter-spacing: -0.025vw;
+    
+}
+
+}
+@media only screen and (max-width: 1024px){
+.therapist-user .dcsDemoWrapper.ast-row {
+    grid-gap: 1.953125vw;
+}
+.therapistpagetitle h1 {
+    line-height: 6.93359375vw;
+    padding-bottom: 0.9765625vw;
+    letter-spacing: -0.0625vw;
+} 
+.therapist-user .authorExcerpt {
+    border-radius: 0 0 0.78125vw 0.78125vw;
+    padding: 2.83203125vw 3.125vw 2.34375vw 2.34375vw !important;
+}    
+.therapist-user .authorExcerpt h3 a {
+    font-size: 2.8390625vw;
+    line-height: 3.41796875vw;
+    letter-spacing: -0.046875vw;
+}
+.shortBio {
+    font-size: 1.654844vw;
+    line-height: 2.34375vw;
+    padding-bottom: 1.7578125vw;
+}
+a.btn.btn-primary.dcsLoadMorePostsbtnTherapist {
+    border: 0.09765625vw solid #165342;
+    border-radius: 6.15234375vw;
+    padding: 1.3671875vw 2.34375vw;
+    font-size: 1.5625vw;
+    line-height: 2.34375vw;
+    letter-spacing: -0.03125vw;
+    
+}
+a.findOutMoreBtn {
+    border: 0.09765625vw solid #165342;
+    border-radius: 6.15234375vw;
+    padding: 0.78125vw 1.5625vw;
+    font-size: 1.5625vw;
+    line-height: 2.34375vw;
+    letter-spacing: -0.03125vw;
+}
+}
+@media only screen and (max-width: 767px){
+.therapistpagetitle h1 {
+    line-height:71px;
+    padding-bottom: 10px;
+    letter-spacing: -0.04em;
+}     
+.therapist-user .blogLoop .post-thumb-img-content.post-thumb img{
+    height:250px;
+}
+.therapist-user .ast-blog-featured-section{
+    height:250px;
+}
+.therapist-user img.avatar {
+    object-fit: cover !important;
+}
+.therapist-user .authorExcerpt {
+    border-radius: 0 0 8px 8px;
+    padding: 29px 32px 24px 24px !important;
+}      
+.therapist-user .dcsDemoWrapper.ast-row {
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.therapist-user .authorExcerpt h3 a {
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+}
+.shortBio {
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 18px;
+}
+a.btn.btn-primary.dcsLoadMorePostsbtnTherapist {
+    border: 1px solid #165342;
+    border-radius: 63px;
+    padding: 14px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    
+}
+a.findOutMoreBtn {
+    border: 1px solid #165342;
+    border-radius: 63px;
+    padding: 8px 16px;
+    font-size:16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+}
+@media only screen and (max-width: 575px){
+    .therapist-user img.avatar {
+    object-fit: cover !important;
+}
+    .therapist-user .dcsDemoWrapper.ast-row {
+        grid-gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

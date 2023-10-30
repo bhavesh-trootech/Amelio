@@ -1,0 +1,1657 @@
+.amelio-new-client-page .totalInvitesSection h3{
+    font-family: 'P22MackinacPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3888888888888888vw;
+    line-height: 1.8055555555555554vw;
+    letter-spacing: -0.01em;
+    color: #181818;
+    }
+    .amelio-new-client-page .totalInvitesSection h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    color: #181818;
+    padding: 0.9722222222222222vw 0;
+    }
+th.sorting.sorting_asc img {
+    transform: rotate(180deg);
+}
+
+    /* .page-id-10605 .select2-hidden-accessible span.select2.select2-container.select2-container--default{
+        width: 5.902777777777778vw !important;
+    }
+
+    .page-id-10605  .select2-container--default .select2-selection--single .select2-selection__arrow{
+        display: none !important;
+    }
+
+    .page-id-10605  .select2-container span.select2-selection.select2-selection--single{
+        padding-right: 0 !important;
+        border-radius: 0.5555555555555556vw;
+        height: 2.5vw;
+        width: 4.583333333333333vw;
+    }
+
+    .page-id-10605  .select2-container .select2-selection--single .select2-selection__rendered{
+        padding-left: 0.6944444444444444vw !important;
+        padding-right: 0 !important;
+        padding-top: 0.20833333333333334vw;
+    }
+
+    
+    .page-id-10605  .select2-container--default .select2-results>.select2-results__options li {
+        width: 4.583333333333333vw !important;
+        border-radius: 0.5555555555555556vw;
+    }
+
+    .page-id-10605 span.select2-dropdown.select2-dropdown--below, .page-id-10605 span.select2-dropdown.select2-dropdown--above {
+            width: 4.583333333333333vw !important;
+            border-radius: 0.5555555555555556vw;
+    }
+
+    .page-id-10605 span.select2.select2-container.select2-container--default.select2-container--below{
+            width: 4.861111111111112vw !important;
+
+    }
+    .page-id-10605 span.select2.select2-container.select2-container--default{
+        width: 4.861111111111112vw !important;
+    }
+    .page-id-10605 span.select2.select2-container.select2-container--default:after {
+        right: 0 !important;
+    
+}
+
+    .DataTables_Table_0_wrapper select .select2-container{
+            width: 4.861111111111112vw !important;
+    } 
+
+    
+    .page-id-10605 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable{
+            background-color: #165342;
+    }
+
+    .page-id-10605 .select2-container--default .select2-results>.select2-results__options {
+            overflow-y: inherit ;
+    }
+
+    .page-id-10605 span.select2.select2-container.select2-container--default:after {
+        content: "";
+        background:url(/wp-content/uploads/2022/12/Vector-4.svg);
+        width: 0.8333333333333334vw;
+        height: 0.4861111111111111vw;
+        display: block;
+        z-index: 999999;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 1.0416666666666665vw !important;
+        top: 1.0416666666666665vw;
+    } */
+
+    span#resentLoader {
+        position: absolute;
+        left: 6px;
+        right: 0;
+        top: 26px;
+    }
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.3472222222222222vw !important;
+}
+
+/* .dataTables_wrapper div.dataTables_length select{
+    width: 4.583333333333333vw !important;
+} */
+
+.swal2-container.swal2-center>.swal2-popup {
+    grid-column: 2;
+    left: 0;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+}
+.swal2-styled.swal2-confirm:focus {
+    box-shadow: unset !important;
+}
+.swal2-styled.swal2-cancel:focus {
+    box-shadow: unset !important;
+}
+.clientListInner td.dataTables_empty {
+    font-weight: 700;
+}
+.resentSuccessMsg {
+    font-weight: 700;
+    display: none;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#resentInvitation>div:last-child {
+    position: relative;
+    width: 80px;
+    height: 15px;
+    margin: 1em auto;
+}
+
+#resentInvitation>#resentLoader:last-child>div {
+    position: absolute;
+    top: 0;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #EB7235;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+#resentInvitation>span:last-child>div:nth-child(1) {
+    left: 8px;
+    animation: datatables-loader-1 .6s infinite;
+}
+#resentInvitation>#resentLoader:last-child>div:nth-child(2) {
+    left: 8px;
+    animation: datatables-loader-2 .6s infinite;
+}
+#resentInvitation>#resentLoader:last-child>div:nth-child(3) {
+    left: 32px;
+    animation: datatables-loader-2 .6s infinite;
+}
+#resentInvitation>#resentLoader:last-child>div:nth-child(4) {
+    left: 56px;
+    animation: datatables-loader-3 .6s infinite;
+}
+
+.dataTables_wrapper div.dataTables_processing {
+    top: 82%;
+    transform: translate(-50%, -50%);
+    margin-left: initial;
+    margin-top: initial;
+}
+/* .dataTableLoaderImg{
+    background: url();
+} */
+
+.clientListInner div.dataTables_processing>div:last-child>div{
+     background: #124537;
+}
+
+.page-id-10605 .header-sec {
+    display: none;
+} 
+ p.noRecord {
+    text-align: center !important;
+}
+span.activeClientTd {
+    background-color: #12453766;
+    padding: 0.1388888888888889vw 0.4166666666666667vw;
+    color: #124537;
+    border-radius: 0.1388888888888889vw;
+}
+span.inviteClientTd {
+    background: #E2DFD6;
+    border-radius: 0.1388888888888889vw;
+    padding: 0.1388888888888889vw 0.4166666666666667vw;
+}
+.dataTables_wrapper .dataTables_paginate{
+    display: flex;
+    justify-content: flex-end;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.first, .dataTables_wrapper .dataTables_paginate .paginate_button.last, .dataTables_wrapper .dataTables_paginate .paginate_button.previous, .dataTables_wrapper .dataTables_paginate .paginate_button.next{
+    display: flex !important;
+    align-items: center;
+}
+.dataTables_wrapper table.dataTable.no-footer{
+    border-bottom: 0;
+}
+
+.dataTables_wrapper  .dataTables_info{
+    width: 30%;
+}
+
+.dataTables_wrapper .dataTables_paginate{
+    width: 70%;
+    padding-top: 0.755em !important;
+}
+
+.clientListInner .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: #ffffff !important;
+}
+.clientListInner .dataTables_wrapper .dataTables_paginate .paginate_button.current, .clientListInner  .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    color: #ffffff !important;
+}
+
+.dataTables_wrapper .dtr-inline{
+    width: 100% !important;
+    margin-top: 1.4583333333333333vw;
+}
+table.dataTable thead>tr>th.sorting_asc:before, table.dataTable thead>tr>th.sorting:after, table.dataTable thead>tr>th.sorting_asc:after, table.dataTable thead>tr>th.sorting:after, table.dataTable thead>tr>th.sorting_asc:after, table.dataTable thead>tr>th.sorting:before{
+    display: none !important;
+}
+.dataTables_wrapper .sorting{
+    background-color: #F0EDE4 !important;
+}
+div#empTable_filter {
+    display: inline-flex;
+    justify-content: end;
+    width: 50%;
+}
+div#empTable_length {
+    display: inline-flex;
+    width: 50%;
+}
+
+ul.filterClientList li ul {
+    display: none;
+}
+ul.filterClientList {
+    display: none;
+}
+.filterDate li.selectedActive {
+    color: green;
+}
+.page-id-10605 .footer-section {
+    display: none;
+}
+
+table#empTable {
+    width: 100% !important;
+}
+
+.client-invite-details p.error.errorMsg {
+    color: red !important;
+    padding-top: 0;
+    margin-top: 0.6944444444444444vw;
+    padding-bottom: 0 !important;
+}
+.client-invite-details span.error {
+    color: red !important;
+    padding-top: 0;
+    margin-top: 0.6944444444444444vw;
+    padding-bottom: 0 !important;
+}
+
+
+.page-id-10605 button#sendInvitationBtn:hover {
+    background: transparent;
+    border: 0.06944444444444445vw solid #165342;
+    transition: all 0.3s;
+    color: #165342;
+    border: 1px solid #165342;
+}
+
+.page-id-10605 .formWrap .error{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.3888888888888888vw;
+    text-align: center;
+    color: red;
+}
+
+.page-id-10605 .formWrap .successMsg{
+    color:#165342;
+}
+.page-id-10605 .amelio-new-client-page{
+    background-color: #F0EDE4;
+    border-radius: 2.5vw 0 0 2.5vw;
+    width: 100%;
+	max-width: 80.28vw;
+    padding: 4.583333333333333vw 3.2638888888888893vw 2.083333333333333vw 5.069444444444445vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.page-id-10605 .category-container{
+	width: 100% !important;
+    max-width: 100%;
+    padding-bottom: 0px;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-link{
+    display: flex;
+    padding-bottom: 1.0416666666666665vw;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-link a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.6666666666666667vw;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #18181866;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-link a img{
+    margin-right: 0.4166666666666667vw;
+    transform: rotate(180deg);
+    filter: contrast(0.5);
+    width: 0.9722222222222222vw;
+    height: 0.9722222222222222vw;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-heading h1{
+    font-family: 'P22 Mackinac Pro';
+    color: #181818;
+    font-weight: 800;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    letter-spacing: -0.03em;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-invite{
+    display: flex;
+    margin: 2.5069444444444446vw 0 3.194444444444444vw 0;
+    background: #E2DFD6;
+    border-radius: 0.5555555555555556vw;
+    background-image: url(/wp-content/uploads/2023/01/Message-Image.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details{
+    padding: 4.791666666666667vw 3.75vw 4.791666666666667vw 3.75vw;
+    text-align: center;
+    width: 49%;
+    margin: 0 auto;
+
+}
+
+.new-client-invite .dcsLoaderImg svg{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.dcsLoaderImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0000005c;
+    z-index: 1;
+} 
+
+/* .safari.mac-os .dcsLoaderImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff !important;
+    z-index: 1;
+}  */
+.client-invite-details .dcsLoaderImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000005c;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details h2{
+    font-family: 'P22 Mackinac Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.9444444444444444vw;
+    line-height: 2.2222222222222223vw;
+    letter-spacing: -0.02em;
+    color: #181818;
+    padding-bottom: 0.4166666666666667vw;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.3888888888888888vw;
+    color: #181818;
+    padding-bottom: 2.2916666666666665vw;
+}
+.page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details .successMsg{
+    color: #165342;
+    padding: 0;
+}
+
+.client-invite-details .inviteClientForm{
+    margin-bottom: 0.6944444444444444vw;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form{
+    background: #FFFFFF;
+    border: 0.06944444444444445vw solid rgba(24, 24, 24, 0.3);
+    border-radius: 0.2777777777777778vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6944444444444444vw 1.1111111111111112vw 0.6944444444444444vw 1.8055555555555554vw;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form input{
+    background: transparent;
+    border: none;
+    padding: 0;
+    width: 50%;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form input:focus{
+    outline: none;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form input::placeholder{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.3888888888888888vw;
+    color: #181818;
+    opacity: 0.6;
+}
+
+.page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form button{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.6666666666666667vw;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    background: #165342;
+    border: 1px solid #165342;
+    border-radius: 3.8194444444444446vw;
+    padding: 0.5555555555555556vw 1.3888888888888888vw;
+}
+
+/* dataTables_wrapper start */
+
+.dataTables_wrapper .sorting{
+    text-align: start;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.3888888888888888vw;
+    color: #181818;
+    opacity: 0.6;
+    border: 0;
+    padding: 0.5555555555555556vw 0.5555555555555556vw;
+}
+
+.dataTables_wrapper th.sorting:first-child {
+    border-radius: 0.5555555555555556vw 0px 0 0.5555555555555556vw;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 0;
+    padding-left: 1.5277777777777777vw;
+}
+
+
+.dataTables_wrapper th.sorting:last-child {
+    border-radius: 0 0.5555555555555556vw 0.5555555555555556vw 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 0;
+    padding-right: 1.5277777777777777vw;
+
+}
+
+
+.dataTables_wrapper th.sorting {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;   
+}
+
+.dataTables_wrapper th.sorting img{
+    margin-top: -3px;
+}
+.dataTables_wrapper table {
+    border-collapse: inherit;
+    border-spacing: 0px 0.3472222222222222vw !important;
+    border: 0;
+    margin-top: 1.4583333333333333vw !important;
+}
+.dataTables_wrapper td.tabletd{
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    background: #FFFFFF;
+    padding: 0.5555555555555556vw 0.5555555555555556vw;
+    border-right: 0;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.3888888888888888vw;
+    color: #181818;  
+}
+
+.dataTables_wrapper td.tabletd:first-child {
+    border-radius: 0.5555555555555556vw 0px 0 0.5555555555555556vw;
+    border: 1px solid transparent;
+    border-right: 0;
+    padding-left: 1.5277777777777777vw;
+    text-transform: capitalize;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+}
+.dataTables_wrapper td.tabletd:last-child {
+    border-radius: 0px 0.5555555555555556vw 0.5555555555555556vw 0px;
+    border: 1px solid transparent;
+    border-left: 0;
+    padding-right: 1.5277777777777777vw;
+    position: relative;
+}
+
+.dataTables_wrapper ul.actionList li:active {
+    background-color: #165342;
+    color: #ffffff;
+    border-radius: 8px !important;
+}
+.dataTables_wrapper ul.actionList li{
+    display: flex;
+    justify-self: start;
+    align-items: center;
+}
+.dataTables_wrapper ul.actionList li img{
+   margin-right: 0.5555555555555556vw;
+}
+.dataTables_wrapper ul.actionList{
+    position: absolute;
+    margin-bottom: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+    top: 54px;
+    font-weight: 700;
+    right: 33px;
+    width: auto;
+    z-index: 1;
+}
+.dataTables_wrapper ul.actionList li:last-child{
+    color: #FF4545;
+}
+
+.dataTables_wrapper ul.actionList li:hover{
+    color: #ffffff;
+    background-color: #165342;
+    border-radius: 8px !important;
+}
+
+.dataTables_wrapper ul.actionList li:hover img{
+    filter: brightness(15);
+}
+.dataTables_wrapper ul.actionList li:last-child:hover img{
+    filter: brightness(4.5);
+}
+
+.dataTables_wrapper ul.actionList li{
+    cursor: pointer;
+    padding: 10px;
+}
+.dataTables_wrapper ul.actionList li:first-child{
+    border-radius: 8px 8px 0 0 ;
+    width: max-content;
+}
+.dataTables_wrapper ul.actionList li:last-child{
+    
+    border-radius: 0 0 8px 8px;
+}
+
+.dataTables_wrapper table tbody tr {
+    box-shadow: 0px 0.2777777777777778vw 0.6944444444444444vw rgb(0 0 0 / 4%);
+}
+.dataTables_wrapper .sorting_1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    color: #181818;
+    padding: 1.1111111111111112vw 0;
+    border: 0;
+}
+
+/* .dataTables_wrapper .clientEmail, .dataTables_wrapper .clientMethod, .dataTables_wrapper .clientaction, .dataTables_wrapper .clientdate{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.3888888888888888vw   ;
+    color: #181818;
+    padding: 1.25vw 0;
+    border-left: 0;
+    border-right: 0;
+    } */
+
+    .dataTables_wrapper .clientaction .threedotsDropdown{
+        /* display: flex;
+        justify-content: flex-end; */
+        cursor: pointer;
+    }
+
+    .dataTables_wrapper th.tabletd.clientSignUp.sorting{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.9722222222222222vw;
+        line-height: 1.3888888888888888vw;
+        letter-spacing: 0.05em;
+        color: #181818;
+        opacity: 0.6;
+        padding: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+    .dataTables_wrapper td.tabletd.clientSignUp{
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 0.7638888888888888vw;
+        line-height: 1.3888888888888888vw;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #181818;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .dataTables_wrapper .dataTables_length label, .dataTables_wrapper .dataTables_filter {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.9722222222222222vw;
+        line-height: 1.3888888888888888vw;
+        color: #181818;
+    }
+
+    .dataTables_wrapper .dataTables_info{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.9722222222222222vw;
+        line-height: 1.3194444444444444vw;
+        color: #333333;
+
+    }
+
+    .dataTables_wrapper .paginate_button{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.9027777777777777vw;
+        line-height: 1.25vw;
+        color: #333333;
+        background: #FFFFFF;
+        border: 1px solid #F1F1F1;
+        border-radius: 2.2222222222222223vw;
+        padding: 0.4861111111111111vw 0.8333333333333334vw;
+        margin: 0 0.1736111111111111vw;
+        cursor: pointer;
+    }
+
+   
+
+    .dataTables_wrapper .paginate_button:hover{
+        background-color: #165342;
+        color: #FFFFFF;
+        border: 1px solid #165342;
+        transition: 0.5s;
+    }
+    
+    .dataTables_wrapper a.paginate_button.current{
+        color: #ffffff;
+        background-color: #165342;
+        border: 1px solid #165342;
+        transition: 0.5s;
+    }
+
+    .dataTables_wrapper .paginate_button.first {
+        margin-left: 0;
+    }
+    .dataTables_wrapper .paginate_button.last {
+        margin-right: 0;
+    }
+    
+    .amelio-new-client-page .dataTables_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .dataTables_paginate .paging_simple_numbers{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.9027777777777777vw;
+        line-height: 1.25vw;
+        color: #333333;
+    }
+
+
+    .dataTables_wrapper .dataTables_length select {
+        background-color: #ffffff !important;
+        background-position: 80%;
+        padding: 0.2777777777777778vw 1.3888888888888888vw 0.2777777777777778vw 0.544444444444444vw !important;
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+        border-radius: 0.5555555555555556vw !important;
+        height: 2.5vw;
+        background-size: 0.8333333333333334vw;
+        width: 4.583333333333333vw !important;
+    }
+    .dataTables_wrapper input[type=search]{
+        background: #f5f5f500;
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+        border-radius:8px !important;
+
+    }
+    .dataTables_wrapper input[type=search]:focus{
+        border-color: #181818 !important;
+        outline: none;
+        background-color: #ffffff;
+    }
+   
+    .dataTables_wrapper .dataTables_paginate .paginate_button{
+        background: #FFFFFF;
+        border: 1px solid #F1F1F1 !important;
+        border-radius: 2.2222222222222223vw !important;
+        padding: 0.4861111111111111vw 0.8333333333333334vw !important;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current{
+        background: #165342 !important;
+        color: #ffffff !important;
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+        background: #165342 !important;
+        color: #ffffff !important;
+        /* border: 1px solid #165342 !important; */
+
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button.disabled{
+        background-color: #ffffff !important;
+    }
+    @media (min-width: 1441px) {
+        .page-id-10605  .select2-container .select2-selection--single .select2-selection__rendered{
+            padding-top: 0.39333vw;
+        }
+    }
+@media (max-width: 1280px) {
+
+    .dataTables_wrapper .dataTables_length select {
+        border-radius: 0.625vw !important;
+        height: 2.8125vw;
+        width: 5.15625vw !important;
+        background-position: 80%;
+        background-size: 0.9375vw;
+    }
+
+    .dataTables_wrapper ul.actionList li img{
+        margin-right: 0.625vw;
+     }
+    .amelio-new-client-page .totalInvitesSection h4{
+        font-size: 1.25vw;
+        line-height: 1.875vw;
+        padding: 1.09375vw 0;
+        }
+
+    .amelio-new-client-page .totalInvitesSection h3{
+        font-size: 1.5625vw;
+        line-height: 2.03125vw;
+        }
+
+    .dataTables_wrapper .dataTables_filter input {
+        margin-left: 0.390625vw !important;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button{
+        padding: 0.546875vw 0.9375vw !important;
+    }
+.dataTables_wrapper td.tabletd:first-child {
+    font-size: 1.25vw;
+    line-height: 1.875vw;
+}    
+
+span.activeClientTd,span.inviteClientTd {
+    padding:0.15625vw 0.46875vw;
+    border-radius: 0.15625vw;
+}    
+
+.dataTables_wrapper td.tabletd{
+    padding: 0.625vw 0;
+    font-size: 1.09375vw;
+    line-height: 1.5625vw;
+}
+
+    .dataTables_wrapper td.tabletd.clientSignUp{
+        font-size: 0.8593750000000001vw;
+        line-height: 1.5625vw;
+    }
+
+    .dataTables_wrapper th.tabletd.clientSignUp.sorting {
+        font-size: 1.09375vw;
+    }
+
+    .page-id-10605 .formWrap .error{
+        font-size: 1.09375vw;
+        line-height: 1.5625vw;
+    }
+
+    .dataTables_length select{
+        padding: 0.234375vw 2.34375vw 0.234375vw 0.46875vw;
+        border: 1px solid rgba(24, 24, 24, 0.3);
+        border-radius: 0.3125vw;
+        background-size: 0.9375vw;
+    
+    }
+
+    
+    .dataTables_wrapper .dataTables_length label, .dataTables_wrapper .dataTables_filter {
+        font-size: 1.09375vw;
+    }
+    .dataTables_wrapper .sorting {
+        font-size: 1.09375vw;
+    }
+    .dataTables_wrapper .sorting_1 {
+        font-size: 1.25vw;
+    }
+    .dataTables_wrapper .clientEmail, .dataTables_wrapper .clientMethod, .dataTables_wrapper .clientaction, .dataTables_wrapper .clientdate {
+        font-size: 1.09375vw;
+    }
+
+    .dataTables_wrapper .clientSignUp {
+        font-size: 0.8593750000000001vw;
+    }
+    .dataTables_wrapper .dataTables_info {
+        font-size: 1.09375vw;
+    }
+
+    .dataTables_wrapper .paginate_button {
+        font-size: 1.015625vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page {
+        background-color: #F0EDE4;
+        border-radius: 2.5vw 0 0 2.5vw;
+        width: 100%;
+        max-width: 80.28vw;
+        padding: 3.583333vw 2.263889vw 1.083333vw 4.069444vw;
+    }
+
+
+    .page-id-10605 .amelio-new-client-page .new-client-link {
+        padding-bottom: 1vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-link a{
+        font-size: 1.09375vw;
+        line-height: 1.875vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite{
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details {
+        width: 53%;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-heading h1{
+        font-size: 2.8125vw;
+        line-height: 2.8125vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details h2{
+        font-size: 2.1875vw;
+        line-height: 2.5vw;
+        padding-bottom: 0.5vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details p{
+        font-size: 1.09375vw;
+        line-height: 1.5625vw;
+        padding-bottom: 2.2vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form input::placeholder{
+        font-size: 1.09375vw;
+        line-height: 1.5625vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form button{
+        font-size: 1.09375vw;
+        line-height: 1.875vw;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .dataTables_wrapper ul.actionList li{
+        font-size: 1.3671875vw;
+    }
+    .dataTables_wrapper th.sorting{
+        padding-right: 0 !important;
+    }
+
+    .dataTables_wrapper .dataTables_length select {
+        height: 3.515625vw;
+        width: 6.4453125vw !important;
+        border-radius: 0.78125vw;
+        background-size: 1.171875vw;
+    }
+
+    .dataTables_wrapper ul.actionList li img{
+        margin-right: 0.78125vw;
+     }
+
+    .amelio-new-client-page .totalInvitesSection h4{
+        font-size: 1.5625vw;
+        line-height: 2.34375vw;
+        padding: 1.3671875vw 0;
+    }
+
+    .amelio-new-client-page .totalInvitesSection h3{
+        font-size: 2.5390625vw;
+        line-height: 2.03125vw;
+        }
+
+    .dataTables_wrapper .dataTables_filter input {
+        margin-left: 0.48828125vw !important;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button{
+        padding: 0.68359375vw 1.171875vw !important;
+        border-radius: 3.125vw;
+    }
+    .dataTables_wrapper .dataTables_info {
+        font-size: 1.3671875vw;
+    }
+#resentInvitation>#resentLoader:last-child>div {
+    width: 8px;
+    height: 8px;
+} 
+span#resentLoader {
+    LEFT: 24px;
+    TOP: 16PX;
+} 
+#resentInvitation>span:last-child>div:nth-child(1) {
+    left: 5px;
+    animation: datatables-loader-1 .6s infinite;
+}
+#resentInvitation>#resentLoader:last-child>div:nth-child(2) {
+    left: 6px;
+    animation: datatables-loader-2 .6s infinite;
+}
+#resentInvitation>#resentLoader:last-child>div:nth-child(3) {
+    left: 20px;
+    animation: datatables-loader-2 .6s infinite;
+}
+#resentInvitation>#resentLoader:last-child>div:nth-child(4) {
+    left: 16px;
+    animation: datatables-loader-3 .6s infinite;
+}
+
+.dataTables_wrapper td.tabletd:first-child {
+    font-size: 1.5625vw;
+    line-height: 2.34375vw;
+}      
+span.activeClientTd,span.inviteClientTd {
+    padding:0.1953125vw 0.5859375vw;
+    border-radius: 0.1953125vw;
+}    
+    .dataTables_wrapper .dataTables_paginate .paginate_button{
+        height: 3.125vw;
+        line-height: 1.5625vw;
+    }
+
+    .dataTables_wrapper  .dataTables_info{
+        width: 25%;
+    }
+    
+    .dataTables_wrapper .dataTables_paginate{
+        width: 75%;
+        padding-top: 0.755em !important;
+    }
+
+    .dataTables_wrapper td.tabletd{
+        padding: 0.78125vw 0.6944444444444444vw;
+        font-size:1.0671875vw;
+        line-height: 1.888889vw;
+        width: 18%;
+    }
+
+    .dataTables_wrapper td.tabletd.clientSignUp{
+        font-size: 1.07421875vw;
+        line-height:1.953125vw ;
+    }
+
+    .dataTables_wrapper .sorting_1 {
+        font-size: 1.5625vw;
+    }
+    .dataTables_wrapper .clientEmail, .dataTables_wrapper .clientMethod, .dataTables_wrapper .clientaction, .dataTables_wrapper .clientdate {
+        font-size: 1.3671875vw;
+    }
+    .dataTables_wrapper th.tabletd.clientSignUp.sorting{
+        font-size: 1.3671875vw;
+        line-height: 2vw;
+    }
+
+    .dataTables_wrapper .sorting {
+        font-size: 1.3671875vw;
+        line-height: 2vw;
+    }
+
+    .page-id-10605 .formWrap .error{
+        font-size: 1.3671875vw;
+        line-height: 1.953125vw;
+    }
+
+    .dataTables_length select{
+        padding:0.29296875vw 2.9296875vw 0.29296875vw 0.5859375vw;
+        border: 1px solid rgba(24, 24, 24, 0.3);
+        border-radius: 0.390625vw;
+        background-size: 1.171875vw;
+    
+    }
+
+
+    .dataTables_wrapper .dataTables_length label, .dataTables_wrapper .dataTables_filter {
+        font-size: 1.3671875vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page {
+        padding: 3.583333vw 2.263889vw 1.083333vw 2.069444vw;
+    }
+    .page-id-10605 .amelio-new-client-page .new-client-link {
+        padding-bottom: 1vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-link a{
+        font-size: 1.3671875vw;
+        line-height: 2.34375vw;
+    }
+    
+    .page-id-10605 .amelio-new-client-page .new-client-heading h1{
+        font-size: 3.515625vw;
+        line-height: 3.515625vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite {
+        margin: 2.8vw 0 3.2vw 0;
+        border-radius: 0.78125vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details {
+        width: 61%;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details h2{
+        font-size: 2.734375vw;
+        line-height: 3.125vw;
+        padding-bottom: 0.7vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details p{
+        font-size: 1.3671875vw;
+        line-height: 1.953125vw;
+        padding-bottom: 2vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form input::placeholder{
+        font-size: 1.3671875vw;
+        line-height: 1.953125vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form button{
+        font-size: 1.3671875vw;
+        line-height: 2.34375vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form {
+        padding: 1vw 1.2vw 1vw 2vw;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-link a img {
+        width:1.3671875vw;
+        height:1.3671875vw;
+    }
+}
+
+
+
+@media (max-width:768px){
+
+
+    .dataTables_wrapper ul.actionList li img{
+        margin-right: 8px;
+     }
+    .amelio-new-client-page .totalInvitesSection h4{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 0;
+    }
+    .amelio-new-client-page .totalInvitesSection h3{
+        font-size: 20px;
+        line-height: 26px;
+        }
+
+    .dataTables_wrapper .dataTables_filter input {
+        margin-left: 5px !important;
+    }
+    .dataTables_wrapper td.tabletd:first-child {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .dataTables_wrapper  .dataTables_info{
+        width: 30%;
+    }
+    
+    .dataTables_wrapper .dataTables_paginate{
+        width: 70%;
+        padding-top: 0.755em !important;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+        font-size: 12px;
+    }
+    .client-invite-details .inviteClientForm{
+        margin-bottom: 10px;
+    }
+    .client-invite-details p.error.errorMsg {
+        margin-top: 10px;
+    }
+    
+    .dataTables_wrapper table{
+        border-spacing: 0px 7px !important;
+    }
+
+    span.activeClientTd,span.inviteClientTd {
+        padding:2px 6px;
+        border-radius: 2px;
+    }        
+    .dataTables_wrapper .dataTables_length select {
+        position: relative;
+        padding: 4px 20px 4px 10px !important;
+        background-size: 12px !important;
+        height: 36px;
+        width: 66px !important;
+        border-radius: 8px !important;
+
+    }
+    .dataTables_wrapper .dataTables_length select option{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        height: 36px;
+        width: 36px;
+        line-height: 20px;
+        font-size: 11px;
+        padding: 7px 12px !important;
+    }
+    .dataTables_wrapper td.tabletd{
+        padding: 4px;
+        font-size:11px;
+        line-height: 16px;
+    }
+    td.tabletd.clientEmail {
+    word-break: break-word;
+}
+
+    .dataTables_wrapper .dataTables_filter{
+        margin-top: 0 !important;
+    }
+    .dataTables_wrapper .dtr-inline{
+
+        margin-top: 21px;
+    }
+
+    .page-id-10605 .formWrap .error{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .dataTables_length select{
+        padding:3px 30px 3px 6px;
+        border: 1px solid rgba(24, 24, 24, 0.3);
+        border-radius: 4px;
+        background-size:12px;
+    
+    }
+
+    .dataTables_wrapper table {
+        margin-top: 20px;
+    }
+
+    .dataTables_wrapper .dataTables_length label, .dataTables_wrapper .dataTables_filter {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .page-id-10605 .amelio-new-client-page .new-client-link a {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-link a img {
+        width:14px;
+        height: 14px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite {
+        border-radius: 8px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details h2 {
+        font-size: 28px;
+        line-height: 32px;
+        padding-bottom: 6px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 33px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form input::placeholder{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form button {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details {
+        padding: 45px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .dataTables_wrapper ul.actionList li{
+        font-weight: 700 !important;
+        font-size: 14px;
+    }
+
+    div.dataTables_wrapper div.dataTables_processing{
+        margin: 0 !important;
+    }
+.dcsLoaderImg {
+    height: 100%;
+} 
+.dcsLoaderImg svg, .amelio-client-page .dcsLoaderImg svg {
+    left: 50%;
+}   
+.page-id-10605 .formWrap .error{
+    display: block;
+}    
+.clientListInner table.dataTable tbody th, table.dataTable tbody td {
+    background: #fff;
+    border-radius: 8px
+}
+.display-message .successMsg {
+    text-align: center;
+}
+    .dataTables_wrapper td.tabletd:first-child {
+        border-radius: 8px;
+        border: 1px solid transparent;
+        border-right: 0;
+        padding-left: 14px;
+        /* padding-right: 22px; */
+    }
+
+    .dataTables_wrapper .dataTables_info
+    {
+        text-align: start !important;
+    }
+     .dataTables_wrapper .dataTables_paginate{
+        text-align: end !important;
+        margin-top: 0 !important;
+        flex-wrap: wrap;
+     }
+    .page-id-10605 .dashboard-main {
+        height: auto;
+    }
+
+    .page-id-10605 .amelio-new-client-page {
+        background-color: #F0EDE4;
+        border-radius: 20px 20px 0 0;
+        max-width: 100%;
+        padding: 40px 20px;
+        height: 100%;
+        margin-top: 71px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-link{
+        padding-bottom: 18px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-link a{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-link a img{
+        margin-right: 6px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-heading h1{
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite {
+        margin: 18px 0;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details{
+        padding: 33px 26px 33px 24px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details h2{
+        font-size: 24px;
+        line-height: 26px;
+        padding-bottom: 8px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details p{
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 23px;
+        padding-right: 14px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form{
+        background: unset;
+        border: unset;
+        border-radius: unset;
+        padding: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form input{
+        background: #FFFFFF;
+        border: 1px solid rgba(24, 24, 24, 0.3);
+        border-radius: 4px;
+        padding: 14px 18px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form input::placeholder{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form button{
+        font-size: 14px;
+        line-height: 24px;
+        border-radius: 55px;
+        padding: 8px 50px;
+        
+    }
+}
+
+@media (max-width: 500px){
+    
+    
+    .swal2-container.swal2-center>.swal2-popup {
+
+        left: 0;
+
+    }
+    .amelio-new-client-page .dataTables_wrapper{
+        display: initial;
+    }
+
+    .dataTables_wrapper .dataTables_length {
+        width: 100% !important;
+    }
+    .dataTables_wrapper .dataTables_filter {
+        margin-top: 10px !important;
+        width: 100% !important;
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button{
+        width: 35px;
+        height: 35px;
+        line-height: 20px;
+    }
+    .dataTables_wrapper .dataTables_paginate {
+        display: flex;
+        justify-content: center;
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        background: #FFFFFF;
+        border: 1px solid #F1F1F1 !important;
+        border-radius: 100% !important;
+        padding: 7px 8px !important;
+    }
+    .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter{
+        text-align: start !important;
+        width: 100%;
+    }
+    .dataTables_wrapper .dataTables_filter{
+        margin-top: 10px;
+    }
+    .dataTables_wrapper .dataTables_info {
+        text-align: center !important;
+        width: 100%;
+    }
+    .dataTables_wrapper .dataTables_paginate {
+        width: 100%;
+        text-align: center !important;
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button,  .dataTables_wrapper .dataTables_paginate .paginate_button.last {
+        margin-top: 5px;
+    }
+    .dataTables_wrapper table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control{
+        padding-left: 14px !important;
+    }
+    .dataTables_wrapper table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before{
+        display: none !important;
+    }
+.clientListInner li.tabletd.clientaction {
+    position: absolute;
+    right: 20px;
+    top: 32%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.clientListInner tr.child {
+    position: relative;
+}
+.clientListInner span.dtr-data {
+    line-height: 26px;
+}
+.clientListInner li.tabletd.clientEmail {
+    opacity: 0.6;
+}
+
+    .dataTables_wrapper table.dataTable>tbody>tr.child span.dtr-title{
+        display: none !important;
+    }
+    .dataTables_wrapper table.dataTable>tbody>tr.child ul.dtr-details>li{
+        border-bottom: 0 !important;
+        padding: 0 !important;
+    }
+   .dataTables_wrapper table.dataTable>tbody>tr.child ul.dtr-details{
+        width: 75% !important;
+    }
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form button {
+        width: 100%;
+    }
+.clientListInner li.tabletd.clientMethod {
+    display: none;
+}
+table#DataTables_Table_0 {
+    border-spacing: 0px 0px !important;
+}
+#DataTables_Table_0 .odd,
+#DataTables_Table_0 .even {
+    margin-bottom: 5px;
+    display: block;
+}
+#DataTables_Table_0 .odd.dt-hasChild,
+#DataTables_Table_0 .even.dt-hasChild{
+    margin-bottom: 0;
+}
+#DataTables_Table_0 .child{
+    margin-bottom: 5px;
+    display: block;
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    padding: 0 1em 0.5em 1em;
+}
+#DataTables_Table_0 .child:hover{
+    background: #fff !important;
+}
+.clientListInner td.child {
+    padding: 0 !important;
+    border-width: 0;
+}
+#DataTables_Table_0 .odd.dt-hasChild td,
+#DataTables_Table_0 .even.dt-hasChild td{
+    border-radius: 8px 8px 0 0;
+    padding-bottom: 0;
+}
+.clientListInner th {
+    width: auto !important;
+    display: block;
+    margin: 10px 0;
+}
+.clientListInner td.tabletd.clientName.sorting_1 {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    width: 100vw;
+}
+.clientListInner span.inviteClientTd,span.activeClientTd {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.dataTables_wrapper ul.actionList {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: max-content;
+    z-index: 1;
+    padding: 0 !important;
+}
+
+
+.dataTables_length, .dataTables_filter {
+    width: 50% !important;
+}
+    .clientListInner .dataTables_wrapper .dataTables_filter input{
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px){
+    .dataTables_wrapper .sorting {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 7px 0;
+    }
+
+    .dataTables_wrapper td.tabletd {
+        padding: 7px 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .dataTables_wrapper th.sorting:first-child {
+        border-radius: 8px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding-left: 14px;
+    }
+
+    .dataTables_wrapper table {
+        border-collapse: inherit;
+        border-spacing: 0px 5px !important;
+    }
+    .dataTables_wrapper table tr {
+        border-collapse: inherit;
+        border-spacing: 0px 0px !important;
+
+    }
+    .dataTables_wrapper ul.dtr-details {
+        margin: 0;
+    }
+
+    .dtr-inline tr.child td{
+        background: #FFFFFF;
+        box-shadow: 0px;
+        border-radius: 0 0 8px 8px;
+/*        position:absolute;*/
+    }
+
+    .dataTables_wrapper .dataTables_info {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .dataTables_wrapper ul.dtr-details li {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #181818;
+        list-style-type:none ;
+        padding: 10px 15px;
+    }
+
+    .dataTables_wrapper .paginate_button {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 0 5px;
+    }
+
+   /* .dataTables_wrapper td.tabletd:first-child {
+        background: #FFFFFF;
+        box-shadow: 0px;
+        border-radius: 8px;
+        border: 1px solid transparent;
+        border-right: 0;
+        padding-left: 14px;
+    }*/
+}
+
+@media (max-width: 374px){
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details p{
+        padding-right: 0px;
+    }
+
+    .page-id-10605 .amelio-new-client-page .new-client-invite .client-invite-details form button{
+        padding: 8px 60px;
+        width: 100%;
+    }
+}

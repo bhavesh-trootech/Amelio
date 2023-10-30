@@ -1,0 +1,617 @@
+/*footer section start */
+
+.footer-sec .has_eae_slider.elementor-column.elementor-col-20.elementor-inner-column.elementor-element.elementor-element-0bcd4e1.elementor-hidden-mobile.elementor-hidden-mobile_extra{
+    width: 6% !important;
+}
+
+.checkboxagree span.wpcf7-not-valid-tip {
+    position: absolute;
+    width: auto;
+}
+.registerform select.wpcf7-form-control.wpcf7-select{
+color:#181818;
+}
+
+.registerform span.wpcf7-list-item-label {
+    font-size: 1.0416666666666665vw;
+}
+
+.footer-sec select {
+    appearance: none;
+    background: no-repeat url(/wp-content/uploads/2022/12/Vector-4.svg);
+    background-size: 1.0416666666666665vw;
+    background-position: 97%;
+}
+
+.footer-sec select::-ms-expand {
+  display: none
+}
+
+.checkboxagree .wpcf7-form-control-wrap {
+    float: left;
+    width: auto;
+    padding: 0 !important;
+}
+.checkboxagree a {
+    color: #000 !important;
+    text-decoration: underline !important;
+}
+.registerform > div {
+    background: #F0EDE4;
+    border-radius: 0.2777777777777778vw;
+    padding: 5.763888888888889vw 8.680555555555555vw 7.083333333333333vw 8.680555555555555vw;
+    max-width: 57%;
+    margin: 0 auto;
+}
+.registerform select.wpcf7-form-control.wpcf7-select {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.0416666666666665vw;
+    line-height: 1.6666666666666667vw;
+    color: #181818;
+}
+.registerform .wpcf7 input:not([type=submit]), .wpcf7 select, .wpcf7 textarea{
+
+    padding: 0.8333333333333334vw;
+}
+.ready-sec.elementor-section-height-default.elementor-section-height-default:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -4.208333vw;
+    width: 100%;
+    height: 5.208333333333334vw;
+    background: url(/wp-content/uploads/2022/12/Group.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.register-btn {
+    background: #165342;
+    border-radius: 4.375vw;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    letter-spacing: -0.022222222222222223vw;
+    padding: 0.9722222222222222vw 1.6666666666666667vw;
+    margin-top: 1.8333333333333334vw;
+    border: solid 1px transparent;
+    transition: 0.3s all;
+}
+img.contact-arrow-icon {
+    margin-left: 0.6944444444444444vw;
+    filter: brightness(15);
+}
+.register-btn:hover {
+    color: #165342;
+    background-color: #E2DFD600;
+    border-color: #165342;
+    border: solid 1px;
+}
+.register-btn:focus {
+    color: #165342;
+    background-color: #E2DFD600;
+    border-color: #165342;
+    border: solid 1px;
+}
+ .register-btn:focus img.contact-arrow-icon  {
+    margin-left: 0.6944444444444444vw;
+}
+
+ .register-btn:hover img.contact-arrow-icon  {
+    margin-left: 0.6944444444444444vw;
+    filter: inherit;
+}
+.registerform input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    border: 0.06944444444444445vw solid #1818184D;
+    border-radius: 0.2777777777777778vw;
+    background: transparent;
+    font-family: 'Open Sans';
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    color:#181818;
+}
+.registerform select.wpcf7-form-control.wpcf7-select {
+    border: 0.06944444444444445vw solid rgba(24, 24, 24, 0.3);
+    border-radius: 0.2777777777777778vw;
+    background-color: transparent;
+}
+.registerform span.wpcf7-list-item.first.last {
+    margin: 0;
+}
+.registerform span.wpcf7-form-control-wrap {
+    padding-top:0.4166666666666667vw;
+}
+.contact-form-row{
+    display: flex;
+}
+.fname{
+    padding-right: 0.6944444444444444vw;
+}   
+.footer-section .col-md-6 {
+    width: 50%;
+}
+.registerform .form-wrapper label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    color: #181818;
+}
+.heading {
+    margin-bottom: 0 !important;
+}
+.heading p{
+    font-family: 'P22Mackinacpro';
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 2.98611vw;
+    letter-spacing: -0.0223vw;
+    padding-bottom: 0.41667vw;
+    color: #181818;
+    margin: 0 !important;
+}
+p.heading-text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
+    color: #181818;
+}
+.footer-btn-get a {
+    padding-top: 0.8333333333333334vw;
+    padding-bottom: 0.8333333333333334vw;
+    padding-right: 1.8055555555555554vw;
+    padding-left: 1.8055555555555554vw;
+    border-radius: 4.375vw !important;
+    line-height: 2.666667vw;
+}
+
+.footer-sec .elementor-icon-list-items {
+    cursor: pointer !important;
+}
+
+.footer-section .elementor-container {
+    max-width: 100vw;
+}
+
+.footer-sec ul.footer-sec-list-item a {
+    color: #FFFFFF;
+}
+
+
+.ready-sec h2 {
+    letter-spacing: -0.022222222222222223vw;
+    line-height: 3.75vw;
+    padding-bottom: 2.430555555555556vw !important;
+}
+
+.footer-sec h4 {
+    line-height: 1.9444444444444444vw;
+    padding-bottom: 1.25vw;
+}
+
+.footer-sec .footer-list-item .elementor-icon-list-text {
+    letter-spacing: -0.022222222222222223vw;
+    line-height: 1.5277777777777777vw;
+    padding-bottom: 0.8333333333333334vw;
+}
+
+
+.footer-sec .amilio-fingerprint {
+    padding-bottom: 2.213888888888889vw;
+}
+
+.footer-sec .amilio-fingerprint-sec {
+    margin-top: -0.9027777777777777vw;
+}
+
+
+.footer-bottom {
+    padding: 0 3.888888888888889vw;
+}
+
+.footer-bottom-sec .elementor-widget-divider {
+    opacity: 0.26;
+}
+
+.footer-divider {
+    opacity: 0.26 !important;
+    padding: 0 3.888888888888889vw;
+}
+
+.footer-bottom-text {
+    line-height: 1.1805555555555556vw;
+    opacity: 0.60 !important;
+    padding: 1.597222222222222vw 0 1.9444444444444444vw 0;
+}
+
+.footer-bottom-text-2 {
+    line-height: 1.1805555555555556vw;
+    padding: 1.597222222222222vw 0 1.9444444444444444vw 0;
+}
+
+.footer-sec .amilio-list-icon {
+    margin-left: 0.6666vw;
+}
+
+.amilio-fingerprint-sec img {
+
+    width: 12.14236111111111vw !important;
+    height: 8.146527777777777vw !important;
+}
+
+.amilio-fingerprint-sec svg {
+    width: 1.6666666666666667vw !important;
+    height: 1.6666666666666667vw !important;
+}
+
+.new-amilio-fingerprint-sec svg {
+    width: 5.763888888888889vw !important;
+    height: 5.208333333333334vw !important;
+}
+/*.footer-section .elementor-background-overlay {
+    background-size: 100%;
+    z-index: 1;
+    top: -1px !important;
+}*/
+
+.page-id-5145 .footer-section  .elementor-container{
+    max-width: 100vw !important;
+}
+.ready-sec {
+    padding-top: 7.083333333333333vw;
+    padding-bottom: 8.402777777777779vw;
+}
+
+.amilio-list-icon ul li.elementor-icon-list-item.elementor-inline-item {
+    padding: 0 0.916666666666665vw !important;
+    margin: 0 !important;
+}
+
+
+.fill-out-sec ol {
+    margin: 0 !important;
+}
+
+@media (max-width: 1280px) {
+.heading p{
+    font-size: 2.8125vw;
+    line-height: 3.437500004vw;
+    letter-spacing: -0.025vw;
+    padding-bottom: 0.46875vw;
+}
+
+.footer-sec .has_eae_slider.elementor-column.elementor-col-20.elementor-inner-column.elementor-element.elementor-element-0bcd4e1.elementor-hidden-mobile.elementor-hidden-mobile_extra {
+    width: 10% !important;
+}
+
+.registerform span.wpcf7-list-item-label {
+    font-size: 1.171875vw;
+}
+
+.registerform select.wpcf7-form-control.wpcf7-select{
+	font-size: 1.171875vw;
+    line-height: 1.875vw;
+    color:#181818;
+}
+
+.registerform input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+  
+    font-size: 1.25vw;
+    line-height: 1.875vw;
+    color: #181818;
+}
+
+.registerform .form-wrapper label {
+    
+    font-size: 1.25vw;
+    line-height: 1.875vw;
+    color: #181818;
+}
+
+  .amilio-fingerprint-sec img {
+        width: 13.659375vw !important;
+        height: 9.210156249999999vw !important;
+    }
+
+.amilio-fingerprint-sec svg {
+    width: 1.875vw !important;
+    height: 1.875vw !important;
+}
+.new-amilio-fingerprint-sec svg {
+    width: 6.484375000000001vw !important;
+    height: 5.859375vw !important;
+}
+
+}
+
+@media (max-width: 1024px) {
+.heading p{
+    font-size: 3.515625vw;
+    line-height: 4.19921875vw;
+    letter-spacing: -0.03125vw;
+    padding-bottom: 0.5859375vw;
+}
+.registerform span.wpcf7-list-item-label {
+    font-size: 1.46484375vw;
+}
+
+.registerform > div {
+    padding: 5.763888888888889vw 5.680556vw 5.763888888888889vw 5.680556vw;
+    max-width: 67%;
+}
+.heading {
+    font-size: 3.515625vw;
+    line-height: 4.296875vw;
+    letter-spacing: -0.03125vw;
+    padding-bottom: 0.5859375vw;
+}
+p.heading-text {
+    font-size: 1.5625vw;
+    line-height: 2.1484375vw;
+}
+.registerform .form-wrapper label {
+    font-size: 1.5625vw;
+    line-height: 2.34375vw;
+}
+
+.registerform input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+  
+    font-size: 1.5625vw;
+    line-height: 2.34375vw;
+    
+}
+.registerform select.wpcf7-form-control.wpcf7-select {
+    font-size: 1.46484375vw;
+    line-height:2.34375vw;
+}
+.register-btn {
+    font-size: 1.5625vw;
+    line-height: 2.34375vw;
+    letter-spacing: -0.03125vw;
+    padding: 0.9765625vw 1.5625vw;
+}
+.footer-btn-get a {
+    padding-top: 1.171875vw;
+    padding-bottom: 1.171875vw;
+    padding-right: 2.5390625vw;
+    padding-left: 2.5390625vw;
+    border-radius: 6.15234375vw !important;
+}
+.amilio-fingerprint-sec svg {
+    width: 2.34375vw !important;
+    height: 2.34375vw !important;
+ }
+ 
+ .new-amilio-fingerprint-sec svg {
+    width: 8.10546875vw !important;
+    height: 7.32421875vw !important;
+}
+.amilio-fingerprint-sec img {
+    width: 14.659375vw !important;
+    height: 10.210156249999999vw !important;
+}
+.footer-sec .footer-list-item .elementor-icon-list-text {
+    line-height: 2vw;
+    }
+}
+@media (min-width: 768px) {
+
+    .amilio-list-icon ul li.elementor-icon-list-item.elementor-inline-item {
+        padding: 0 15px !important;
+        margin: 0 !important;
+    }
+/*.register-btn {
+    margin-top: 16px;
+}   */ 
+.heading p{
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    padding-bottom: 6px;
+}
+.footer-sec {
+    padding-top: 5.069444444444445vw !important;
+    padding-right: 6.666666666666667vw !important;
+    padding-bottom: 13.158333333333334vw !important;
+    padding-left: 5.902777777777778vw !important;
+}
+.new-footer-sec {
+    padding-top: 5.208333333333334vw !important;
+    padding-bottom: 4.861111111111112vw !important;
+}
+}
+
+@media (max-width: 768px) {
+
+    .footer-sec .amilio-fingerprint {
+        padding-bottom: 20px !important;
+    }
+.registerform span.wpcf7-list-item-label {
+    font-size: 15px;
+}
+.registerform > div {
+    padding: 5.763888888888889vw 5.680556vw 5.763888888888889vw 5.680556vw;
+    max-width: 86%;;
+}
+
+.heading {
+   font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    padding-bottom: 6px;
+}
+p.heading-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.registerform .form-wrapper label {
+    font-size: 16px;
+    line-height: 24px;
+    color: #181818;
+}
+.registerform select.wpcf7-form-control.wpcf7-select {
+    font-size: 16px;
+    line-height: 24px;
+    color: #181818;
+}
+
+.registerform input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+  
+    font-size: 15px;
+    line-height: 24px;
+    
+}
+
+.register-btn {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    padding: 12px 24px;
+}
+.amilio-fingerprint-sec svg {
+    width: 24px !important;
+    height: 24px !important;
+}
+ .new-amilio-fingerprint-sec svg {
+    width: 68px !important;
+    height: 60px !important;
+}
+.amilio-fingerprint-sec img {
+    width: 17.659375vw !important;
+    height: 11.210156vw !important;
+}
+.ready-sec h2 {
+    line-height: 4.75vw;
+}
+.footer-sec .elementor-tab-content {
+    border: none !important;
+    padding: 0 !important;
+}
+.footer-sec .elementor-accordion .elementor-tab-title {
+    padding: 20px 0 0 0 !important;
+}
+.footer-sec-list-item {
+    list-style-type: none !important;
+    margin: 0 !important;
+}
+.footer-sec .elementor-accordion-item {
+    border: none !important;
+}
+.footer-sec .amilio-list-icon {
+    margin: 0 auto !important;
+}
+.footer-sec .elementor-accordion-icon {
+    margin-top: 8px !important;
+}
+.footer-sec .elementor-accordion .elementor-tab-content {
+    padding: 7px 0px !important;
+}
+}
+@media (max-width: 650px) {
+
+.registerform span.wpcf7-list-item-label {
+    font-size: 14px;
+}
+.registerform .wpcf7 input:not([type=submit]), .wpcf7 select, .wpcf7 textarea{
+    padding: 10px !important;
+}
+.contact-form-row{
+    display: block;
+}
+.footer-section .col-md-6{
+    width: 100%;
+}
+.fname{
+    padding-right: 0;
+}
+.col-md-6.lname {
+    margin-top: 19.2px;
+}
+.registerform > div {
+    padding: 20px 15px;
+    max-width: 100%;
+}
+img.contact-arrow-icon {
+    margin-left: 10px;
+    width: 20px;
+}
+.register-btn:hover img.contact-arrow-icon{
+    margin-left: 10px;
+    filter: inherit;
+}
+.heading {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    padding-bottom: 6px;
+}
+p.heading-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+.registerform .form-wrapper label {
+    font-size: 16px;
+    line-height: 24px;
+}
+.registerform select.wpcf7-form-control.wpcf7-select {
+    font-size: 14px;
+    line-height: 24px;
+}
+.register-btn {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    padding: 10px 14px;
+    border-radius: 63px;
+}
+.registerform select.wpcf7-form-control.wpcf7-select{
+    border: 1px solid rgba(24, 24, 24, 0.3);
+    border-radius: 4px;
+}
+.registerform select.wpcf7-form-control.wpcf7-select{
+    font-size: 15px;
+    line-height: 24px;
+}
+}
+
+@media (max-width: 500px) {
+.heading p{
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    padding-bottom: 6px;
+}
+
+ .new-amilio-fingerprint-sec svg {
+    width: 58px !important;
+    height: 50px !important;
+}
+
+.amilio-fingerprint-sec img {
+    width: 30.659375vw !important;
+    height: 30.210156vw !important;
+}
+.amilio-list-icon ul li.elementor-icon-list-item.elementor-inline-item {
+    padding: 0 4.041667vw !important;
+}
+.new-amilio-list-icon ul li.elementor-icon-list-item.elementor-inline-item {
+    padding: 0 7px !important;
+}
+}
+@media (max-width: 485px) {
+.checkboxagree span.wpcf7-not-valid-tip {
+    position: absolute;
+    width: auto;
+    bottom: -45px;
+} 
+}
+
+/*footer section end*/

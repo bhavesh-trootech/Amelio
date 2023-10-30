@@ -1,0 +1,2010 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* transition: all 0.3s cubic-bezier(0.755, 0.05, 0.855, 0.06); */
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+/* .notification-section.active{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+} */
+.safari.mac-os .amelio-client-page, .safari.mac-os .amelio-welcome, .safari.mac-os .buy-lead-main , .safari.mac-os .amelio-new-client-page{
+    margin-left: auto;
+    /* position:-webkit-sticky; */
+}
+.fc button .fc-icon{
+    opacity: 0.3;
+}
+#dashboard-upcoming-session .user-btn img {
+    margin-right: 6px;
+}
+.dashboard-upcoming-event-main{
+    position: relative;
+}
+.dashboard-upcoming-dcsLoaderImg svg {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+}
+.session-columns .text-message {
+    display: flex;
+    align-items: center;
+}
+p.des-session-title {
+    font-weight: 600;
+    color: #181818;
+}
+#dashboard-upcoming-session .user-btn a {
+    background: #165342;
+    border-radius: 55px;
+    padding: 14px 20px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 16px 0;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.dashboard-upcoming-dcsLoaderImg {
+    position: absolute;
+    left: 0;
+    /* top: 0; */
+    width: 100%;
+    height: 100% !important;
+    background-color: #0000005c;
+    z-index: 2;
+}
+.dashboard-upcoming-dcsLoaderImg svg path {
+    fill: #165342;
+}
+.amelio-messages-columns:last-child .separator {
+    display: none;
+}
+.amelio-messages 
+ .profile-image {
+    display: none !important;
+}
+.calendar_day_popup .session-title {
+    padding: 0;
+}
+
+.amelio-welcome .title-btn {
+    display: none;
+}
+#dashboard-upcoming-session::-webkit-scrollbar {
+    display: none;
+}
+#dashboard-mini-calendar .fc-right .fc-button-group button {
+    background: unset;
+    box-shadow: none;
+}
+#dashboard-mini-calendar .fc-ltr .fc-basic-view .fc-day-number {
+    text-align: center !important;
+    display: block;
+}
+#dashboard-mini-calendar .fc-view.fc-month-view.fc-basic-view {
+    cursor: pointer;
+}
+#dashboard-mini-calendar .fc-today span.fc-day-number,
+#dashboard-mini-calendar .active span.fc-day-number {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    background: #165342;
+    border-radius: 50%;
+    width: 26px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+}
+#dashboard-mini-calendar .fc-toolbar.fc-header-toolbar .fc-left {
+    background: no-repeat url(/wp-content/uploads/2023/03/calendar.svg) !important;
+}
+#dashboard-mini-calendar .fc-left {
+    padding-left: 2em;
+}
+#dashboard-mini-calendar td.fc-day-top {
+    text-align: center;
+}
+#dashboard-mini-calendar .fc th, .fc td{
+    background: transparent;
+}
+#dashboard-mini-calendar .fc th, .fc td:hover{
+    background: transparent;
+}
+.fc-unthemed .fc-today{
+    background: unset !important;
+}
+#dashboard-mini-calendar .fc-basic-view .fc-body .fc-row{
+    min-height: 0;
+}
+#dashboard-mini-calendar span.fc-day-number{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #181818;
+}
+.dashboard-calendar .fc th {
+    background-color: unset !important;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #165342;
+    padding-bottom: 15px !important;
+}
+.fc-month-view td.fc-day-top.fc-sun.fc-today {
+    background: #165342 !important;
+    display: block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.no_record {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.no_record p {
+    font-family: 'P22MackinacPro';
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #181818;
+
+}
+.no_record img {
+    max-width: 145px;
+    margin: 0 auto;
+}
+#dashboard-upcoming-session{   
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 40%;
+    display: flex;
+/*    align-items: center;*/
+  /*justify-content: center;*/
+    flex-direction: column;
+}
+#dashboard-upcoming-session::-webkit-scrollbar {
+    display: none !important;
+}
+#dashboard-upcoming-session::-moz-scrollbar {
+    display: none !important;
+  
+}
+.dashboard-calendar {
+    justify-content: space-between;
+    display: flex;
+    background: #E2DFD6;
+    padding: 32px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+div#dashboard-mini-calendar .fc-left h2 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #165342 !important;
+}
+div#dashboard-mini-calendar {
+    width: 60%;
+    padding-right: 32px;
+}
+.text-message-heading p {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 24px;
+    color: #181818;
+    display: -webkit-box;
+    max-width: 400px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 5px;
+}
+.text-message-heading h6 span {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #181818;
+    opacity: 0.6;
+}
+.text-message-heading h6 {
+    color: #757575;
+    line-height: 28px;
+}
+.text-message-heading img {
+    width: 22px;
+    margin-right: 6px;
+    margin-bottom: 2px;
+}
+.user-btn button {
+    background: #165342;
+    border-radius: 55px;
+    padding: 10px 40px 10px 40px;
+/*    margin: 16px 0;*/
+    width: 100%;
+}
+.session-columns {
+    display: flex;
+/*    justify-content: space-between;*/
+    margin-bottom: 0.5555555555555556vw;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.amelio-welcome .text-message-heading {
+    padding-left: 12px;
+}
+hr.separator {
+    margin: 16px 0 !important;
+}
+#dashboard-upcoming-session .profile-image {
+    width: 3.6111111111111107vw;
+    height: 3.6111111111111107vw;
+    padding: 0.6944444444444444vw 1.0416666666666665vw 0.9722222222222222vw 1.0416666666666665vw;
+    background: rgba(133, 165, 169, 0.1);
+    border: 0.09081180555555556vw solid rgba(133, 165, 169, 0.24);
+    border-radius: 3.4722222222222223vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#dashboard-upcoming-session .amelio-messages-columns .profile-image h3 {
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.4130555555555555vw;
+    line-height: 1.9444444444444444vw;
+    letter-spacing: -0.022222222222222223vw;
+    color: #165342;
+}
+.title-section span {
+    text-transform: capitalize;
+}
+.amelio-welcome-inner{
+    position: sticky;
+    top: 100px;
+    overflow: hidden;
+}
+.amelio-bar li.active a:first-child{
+    background: rgba(255, 255, 255, 0.09);
+} 
+.dashboard-main.active-height {
+    max-height: 100vh;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateY(100%);
+      z-index: -1;
+    }
+    100% {
+      transform: translateY(0%);
+      z-index: -1;
+    }
+  }
+
+  .amelio-leads {  
+    animation: 1.5s ease-out 0s 1 slideInFromLeft;
+    z-index: -1;   
+  }
+
+.page-template-therapist_dashboard header,
+.page-template-therapist_dashboard .elementor-location-footer {
+    display: none;
+}
+
+.amelio-bar .buy-leads-mob-show {
+    display: none !important;
+}
+
+.page-template-therapist_dashboard .ast-container.category-container {
+    width: 100% !important;
+    max-width: 100%;
+    padding-bottom: 0px;
+}
+
+.amelio-bar ul {
+    margin: 0 !important;
+}
+
+/* .dashboard-main {
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    /* background-color: #165342; 
+    justify-content: space-between;
+} */
+
+.dashboard-main {
+    max-width: 100vw;
+    width: 100%;
+    background-color: #165342;
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* height: 100vh; */
+}
+
+
+.amelio-sidebar {
+    max-width: 18.47222222222222vw;
+    width: 100%;
+    background-color: #165342;
+    padding: 2.569444vw 0.8333333vw 0.90277777vw 0.8333333vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow-y: scroll;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.amelio-sidebar::-webkit-scrollbar {
+    width: 0;
+  }
+
+.amelio-welcome {
+    /* max-width: 53.263888888888886vw; */
+    width: 100%;
+    background: #F0EDE4;
+    border-radius: 2.5vw 0 0 2.5vw;
+    padding: 3.958333333333333vw 4.861111111111112vw 3.0555555555555554vw 5.069444444444445vw;
+    border-right: 0.06944444444444445vw solid #d8d5cd;
+}
+
+.amelio-messages {
+    max-width: 28.194444444444443vw;
+    width: 100%;
+    background: #F0EDE4;
+    padding: 4.583333333333333vw 2.083333333333333vw 0 2.9166666666666665vw;
+}
+
+
+/* amelio-welcome */
+
+.title-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 2.013888888888889vw 0;
+    /* border-bottom: 1px solid #d8d5cd; */
+}
+
+.title-section h1 {
+    font-family: 'P22MackinacPro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    letter-spacing: -0.03em;
+    color: #181818;
+}
+
+.title-btn a {
+    display: block;
+}
+
+.title-btn a img {
+    width: 3.61111111vw;
+}
+
+/* hr */
+
+.amelio-welcome hr {
+    opacity: 0.1;
+    /* border: 0.06944444444444445vw solid #000000; */
+    margin: 0 0 2.569444444444444vw 0;
+    background-color: #000000;
+    height: 0.1vw;
+}
+
+/* day-look */
+
+.day-look {
+    margin: 0 0 3.4027777777777777vw 0;
+}
+
+.day-look h2 {
+    font-family: 'P22MackinacPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9444444444444444vw;
+    line-height: 2.2222222222222223vw;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.9027777777777777vw 0;
+    color: #181818;
+}
+
+.day-look-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px; */
+}
+
+.client-sessions,
+.unread-message,
+.buy-leads {
+    width: 13.88888888888889vw;
+    position: relative;
+    line-height: 0;
+}
+
+.client-img img {
+    width: 100%;
+}
+
+.client-content {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 1.4583333333333333vw 0 1.1805555555555556vw 1.3888888888888888vw;
+}
+
+.client-content p {
+    font-family: 'P22MackinacPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #fff;
+    padding: 0 0 3.8194444444444446vw 0;
+}
+
+.client-content-wrap p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    color: #fff;
+    padding: 0 0 0.6944444444444444vw 0;
+}
+
+.client-content a,
+.client-content-buy-leads a:last-child {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.6666666666666667vw;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.client-content img {
+    margin: 0 0 0 0.5555555555555556vw;
+    width: 0.3472222222222222vw;
+    height: 0.6944444444444444vw;
+}
+
+.client-content-buy-leads {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 1.4583333333333333vw 1.430556vw 1.1805555555555556vw 1.3888888888888888vw;
+}
+
+.client-content-buy-leads p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    color: #fff;
+    padding: 1.3888888888888888vw 0 0.9vw 0;
+}
+
+.client-content-buy-leads a:first-child img {
+    width: 1.6666666666666667vw;
+}
+
+.client-content-buy-leads a:last-child img {
+    margin: 0 0 0 0.5555555555555556vw;
+    width: 0.3472222222222222vw;
+    height: 0.6944444444444444vw;
+}
+
+/* Upcoming sessions */
+
+
+.upcoming-title-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.upcoming-title-btn h2 {
+    font-family: 'P22MackinacPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.94444444vw;
+    line-height: 2.2222222vw;
+    letter-spacing: -0.02em;
+    color: #181818;
+}
+
+.upcoming-title-btn a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.972222vw;
+    line-height: 1.6666666vw;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #165342;
+    text-decoration: none;
+    padding: 0.5555555555555556vw 1.94444444vw;
+    border: 0.06944444444444445vw solid #165342;
+    border-radius: 3.8194444444444446vw;
+    transition: all 0.3s;
+}
+
+.upcoming-title-btn a:hover {
+    color: #fff;
+    background-color: #165342;
+}
+
+
+
+/* .amelio-messages */
+
+
+.amelio-messages .amelio-message-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.2222222222222223vw;
+}
+
+.amelio-messages .amelio-message-row h2 {
+    align-self: center;
+    font-family: 'P22MackinacPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9444444444444444vw;
+    line-height: 2.2222222222222223vw;
+    letter-spacing: -0.022222222222222223vw;
+    color: #181818;
+}
+
+.amelio-messages .amelio-message-row a {
+    border: 0.06944444444444445vw solid #165342;
+    border-radius: 3.8194444444444446vw;
+    padding: 0.5555555555555556vw 1.8055555555555554vw;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.6666666666666667vw;
+    text-align: center;
+    letter-spacing: -0.022222222222222223vw;
+    color: #165342;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.amelio-messages .amelio-message-row a:hover {
+    background-color: #165342;
+    color: #FFFFFF;
+}
+
+.amelio-messages .amelio-messages-columns {
+    background: #E2DFD6;
+    border: 0.06944444444444445vw solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2777777777777778vw;
+    padding: 1.1111111111111112vw 1.3888888888888888vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5555555555555556vw;
+    transition: all 0.3s;
+}
+
+.amelio-messages .amelio-messages-columns .profile-image {
+    width: 3.6111111111111107vw;
+    height: 3.6111111111111107vw;
+    /* padding: 0.6944444444444444vw 1.0416666666666665vw 0.9722222222222222vw 1.0416666666666665vw; */
+    background: rgba(133, 165, 169, 0.1);
+    border: 0.09081180555555556vw solid rgba(133, 165, 169, 0.24);
+    border-radius: 3.4722222222222223vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amelio-messages .amelio-messages-columns .profile-image h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4130555555555555vw;
+    line-height: 1.9444444444444444vw;
+    letter-spacing: -0.022222222222222223vw;
+    color: #165342;
+}
+
+.amelio-messages .amelio-messages-columns .text-message {
+/*    padding-left: 0.8333333333333334vw;*/
+/*    width: 17.01388888888889vw;*/
+width: 100%;
+}
+
+.amelio-messages .amelio-messages-columns .text-message .text-message-heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.2777777777777778vw;
+}
+
+.amelio-messages .amelio-messages-columns .text-message .text-message-heading p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    color: #181818;
+}
+
+.amelio-messages .amelio-messages-columns .text-message .text-message-heading h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.7638888888888888vw;
+    line-height: 1.3888888888888888vw;
+    text-align: center;
+    letter-spacing: 0.05555555555555555vw;
+    color: #181818;
+    opacity: 0.3;
+    align-self: center;
+}
+
+.amelio-messages .amelio-messages-columns .text-message .text-message-description p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.3888888888888888vw;
+    color: #181818;
+    opacity: 0.6;
+    word-break: break-all;
+}
+
+.amelio-messages .amelio-messages-columns:hover {
+    background: #FFFFFF;
+}
+
+.amelio-messages .amelio-messages-columns:hover .text-message-description p {
+    opacity: 1;
+}
+
+
+/* sidebar */
+
+
+.amelio-sidebar .mobile {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.amelio-bar{
+    margin-bottom: 2.430555555555556vw;
+}
+
+.amelio-sidebar .amelio-sidebar-img img {
+    width: 8.416666666666666vw;
+}
+
+/* .amelio-bar{
+    padding-bottom: 14.930555555555555vw;
+} */
+
+.amelio-sidebar-img .mobile-logo {
+    display: none !important;
+}
+
+.amelio-sidebar-img .notification {
+    display: none;
+}
+
+.amelio-sidebar .amelio-sidebar-img a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    letter-spacing: -0.022222222222222223vw;
+    display: block;
+    width: 8.416666666666666vw;
+    margin: 0 auto;
+}
+
+.amelio-sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    letter-spacing: -0.022222222222222223vw;
+    /* display: block; */
+}
+
+.amelio-sidebar .amelio-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1.111111vw 1.04166vw;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    letter-spacing: -0.022222222222222223vw;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 0.277777vw;
+    /* margin-bottom: 6px; */
+}
+
+
+.amelio-sidebar .amelio-bar a.white-arrow {
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+.amelio-sidebar .amelio-bar a:hover {
+    background: rgba(255, 255, 255, 0.09);
+}
+.amelio-sidebar .amelio-bar a:active{
+    background: rgba(255, 255, 255, 0.09);
+}
+
+span.message-new {
+    align-self: center;
+    margin-left: 0.6944444444444444vw;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 0.7638888888888888vw;
+    line-height: 1.3888888888888888vw;
+    letter-spacing: 0.05em;
+    padding: 0 0.5555555555555556vw;
+    color: #124537;
+    background-color: #EB7235;
+    border-radius: 3.8194444444444446vw;
+    text-transform: uppercase;
+}
+
+.amelio-sidebar ul li {
+    list-style-type: none;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.amelio-sidebar ul li:active {
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 0.2777777777777778vw;
+}
+
+.amelio-sidebar .amelio-bar a img,
+.amelio-sidebar .amelio-logout a img {
+    margin-right: 0.9027777777777777vw;
+    width: 1.3888888888888888vw;
+}
+
+.amelio-sidebar .amelio-leads a img {
+    margin-left: 0.9027777777777777vw;
+    width: 0.4166666666666667vw;
+}
+
+.amelio-sidebar .amelio-leads img {
+    width: 1.3888888888888888vw;
+}
+
+.amelio-sidebar-img {
+    text-align: center;
+    padding-bottom: 2.569444444444444vw;
+}
+
+.amelio-sidebar .amelio-leads {
+    padding: 1.9444444444444444vw 1.9444444444444444vw 2.083333333333333vw 2.2916666666666665vw;
+    border-radius: 1.1805555555555556vw;
+    background: radial-gradient(81.99% 54.54% at 17.66% 16.54%, rgba(255, 255, 255, 0.14) 18.23%, rgba(255, 255, 255, 0) 100%), rgba(133, 165, 169, 0.26);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.amelio-sidebar .amelio-leads a {
+    /* line-height: 0; */
+    /* display: flex; */
+    align-items: center;
+}
+
+.amelio-sidebar .amelio-leads p {
+    padding-top: 2.9166666666666665vw;
+    padding-bottom: 1.25vw;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    color: #ffffff;
+}
+
+.amelio-logout {
+    margin-top: 1.4583333333333333vw;
+    text-align: center;
+    background-color: #124537;
+    border-radius: 3.2638888888888893vw;
+    margin-bottom: 0.9027777777777777vw;
+}
+
+.amelio-logout a {
+    /* line-height: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9722222222222222vw 0;
+}
+
+
+/* notification-section */
+
+.notification-section {
+    /* display: none; */
+    position: fixed;
+    /* margin-top: 155px; */
+    top: 155px;
+    right: 300px;
+    z-index: -1;
+    opacity: 0;
+    transform: scale(.9, .9);
+    transition: all .18s ease-in-out;
+    height: calc(100vh - 35vh);
+}
+
+.notification-section.active {
+    opacity: 1;
+    transform: scale(1, 1);
+    z-index: 10;
+    overflow-y: scroll;
+    height: calc(100vh - 35vh);
+}
+.notification-section::-webkit-scrollbar {
+    width: 0;
+  }
+
+
+
+.notification-section{
+    max-width: 27.916666666666668vw;
+    width: 100%;
+    padding: 1.8055555555555554vw 2.2916666666666665vw;
+    background: #FFFFFF;
+    border: 0.06944444444444445vw solid rgba(24, 24, 24, 0.06);
+    box-shadow: 0vw 0.4861111111111111vw 1.597222222222222vw rgba(0, 0, 0, 0.04);
+    border-radius: 0.8333333333333334vw;
+}
+
+.notification-section .notification-section-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5277777777777777vw;
+    /* border-bottom: 1px solid #0000001A; */
+}
+
+.notification-section .notification-section-heading h2{
+    font-family: 'P22MackinacPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9444444444444444vw;
+    line-height: 2.2222222222222223vw;
+    letter-spacing: -0.022222222222222223vw;
+    color: #181818;
+}
+
+.notification-section .notification-section-heading a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.6666666666666667vw;
+    text-align: right;
+    letter-spacing: -0.022222222222222223vw;
+    color: #165342;
+    text-decoration: none;
+}
+
+.notification-section .notification-section-text{
+    padding: 0.8333333333333334vw 0;
+    display: flex;
+    border-top: 1px solid #0000001A;
+}
+
+.notification-section .notification-section-text .contact-image img{
+    max-width: 3.6111111111111107vw;
+    height: 3.6111111111111107vw;
+} 
+
+.notification-section .notification-section-text .client-message{
+    padding-left: 0.8333333333333334vw;
+}
+
+.notification-section .notification-section-text .client-message .client-message-heading{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.2777777777777778vw;
+}
+
+.notification-section .notification-section-text .client-message .client-message-heading h6{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.7638888888888888vw;
+    line-height: 1.3888888888888888vw;
+    text-align: center;
+    letter-spacing: 0.05555555555555555vw;
+    color: #181818;
+    opacity: 0.3;
+}
+
+.notification-section .notification-section-text .client-message .client-message-heading h6.info{
+    color: #124537;
+    opacity: 1;
+}
+
+.notification-section .notification-section-text .client-message .client-name{
+    padding-bottom: 0.2777777777777778vw;
+}
+
+.notification-section .notification-section-text .client-message .client-name p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1111111111111112vw;
+    line-height: 1.6666666666666667vw;
+    color: #181818;
+}
+
+.notification-section .notification-section-text .client-message .client-message-description p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9722222222222222vw;
+    line-height: 1.3888888888888888vw;
+    color: #181818;
+}
+
+.notification-section .notification-section-text .client-message .client-message-description p span{
+    font-weight: 600;
+}
+
+.notification-section .notification-section-text .client-message .client-message-description p.para{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8333333333333334vw;
+    line-height: 1.25vw;
+    color: #181818;
+    opacity: 0.6;
+}
+
+.amelio-sidebar .amelio-bar a:focus {
+    background: rgba(255, 255, 255, 0.09);
+}
+
+/* responsive */
+
+@media only screen and (max-width: 1530px) and (min-width: 1441px) {
+    
+    .dashboard-main {
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 1439px) {
+
+    .amelio-welcome {
+        /* border-radius: 3vw 0 0 3vw; */
+        max-width: 53.263889vw;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .amelio-welcome {
+        max-width: 53.263888888888886vw;
+        /* height: 100vh; */
+    }
+    /* .dashboard-main {    
+        height: 100vh;
+    } */
+}
+
+@media only screen and (max-width: 1280px) {
+    .user-btn button{
+        margin: 5px 0;
+    }
+    hr.separator {
+    margin: 10px 0 !important;
+}
+      .notification-section {
+
+        right: 260px;
+        height: calc(100vh - 42vh);
+
+    }
+    .notification-section.active {
+
+        height: calc(100vh - 42vh);
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .dashboard-calendar{
+        padding: 12px;  
+        margin-top: 30px;
+    }
+
+    .notification-section {
+        height: calc(100vh - 40vh);
+    }
+    .notification-section.active {
+        opacity: 1;
+        transform: scale(1, 1);
+        z-index: 10;
+        overflow: scroll;
+        height: calc(100vh - 40vh);
+    }
+
+    .notification-section .notification-section-heading h2{
+        font-size: 2.4vw;
+    }
+
+    .notification-section .notification-section-heading a{
+
+        font-size: 1.5vw;
+    }
+
+    .notification-section .notification-section-text .contact-image img {
+        max-width: 3.811111111111111vw;
+        height: 3.811111111111111vw;
+    }
+    .notification-section .notification-section-text .client-message .client-message-heading h6{
+        font-size: 1.18vw;
+    }
+
+    .notification-section .notification-section-text .client-message .client-message-description p.para{
+
+        font-size: 1vw;
+    }
+
+     .notification-section {
+        top: 150px;
+        right: 135px;
+        max-width: 34.916667vw;
+    }
+
+    .amelio-sidebar {
+        max-width: 19.5vw;
+        overflow-y: scroll;
+    }
+
+    .client-content-wrap p {
+        font-size: 1.5vw;
+    }
+
+    .client-content a,
+    .client-content-buy-leads a:last-child {
+        font-size: 1.3vw;
+    }
+
+    .client-content img,
+    .client-content-buy-leads a:last-child img {
+        width: 0.7vw;
+        height: 1vw;
+    }
+
+    .amelio-welcome {
+        padding: 3.958333333333333vw 2vw 3.0555555555555554vw;
+        max-width: 51.9vw;
+    }
+
+    .client-sessions,
+    .unread-message,
+    .buy-leads {
+        width: 15.5vw;
+    }
+
+    .client-content-buy-leads p {
+        font-size: 1.3vw;
+    }
+
+    .amelio-messages .amelio-message-row .message-link a,
+    .upcoming-title-btn a {
+        font-size: 1.2vw;
+    }
+
+    .amelio-messages {
+        padding: 4.583333333333333vw 1.5vw 0;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message .text-message-heading p {
+        font-size: 1.6vw;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message .text-message-description p {
+        font-size: 1.4vw;
+        line-height: 1.7vw;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message .text-message-heading {
+        padding-bottom: 1vw;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message .text-message-heading h6 {
+        font-size: 1vw;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message {
+        padding-left: 0;
+    }
+
+    .amelio-sidebar .amelio-bar a {
+        font-size: 1.5vw;
+    }
+
+    span.message-new {
+        font-size: 1.2vw;
+        padding: 0.4vw 0.5555555555555556vw;
+    }
+
+    .amelio-sidebar .amelio-bar a img,
+    .amelio-sidebar .amelio-logout a img {
+        width: 1.7vw;
+        margin-right: 1.5vw;
+    }
+
+    .amelio-sidebar .amelio-leads img {
+        width: 1.7vw;
+    }
+
+    .amelio-sidebar .amelio-leads p {
+        font-size: 1.5vw;
+        line-height: 1.9vw;
+    }
+
+    .amelio-sidebar a {
+        font-size: 1.5vw;
+    }
+
+    .amelio-sidebar .amelio-leads {
+        padding: 1.3vw;
+    }
+
+    .amelio-sidebar .amelio-leads a img {
+        width: 0.6vw;
+    }
+
+    /* .amelio-welcome {
+    max-width: 100%;
+} */
+}
+@media only screen and (max-width:820px) {
+    .dashboard-calendar .dashboard-upcoming-session{
+        position: relative !important;
+        min-height: 300px;
+    }
+    
+    .dashboard-upcoming-session .no_record{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+    } 
+#dashboard-upcoming-session .user-btn {
+    display: none;
+}
+ .amelio-welcome{
+    border-right: 0;
+ }   
+.dashboard-calendar #dashboard-upcoming-session {
+    height: unset;
+}
+    .dashboard-calendar{
+        display: block;
+        padding: 10px;
+        margin-top: 20px;
+/*        background: transparent;*/
+    } 
+    .amelio-welcome .text-message-heading{
+        padding-left: 0;
+    }
+    #dashboard-upcoming-session{
+        width: unset;
+    }
+    #dashboard-upcoming-session .amelio-messages-columns .profile-image h3 {
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+    }
+    #dashboard-mini-calendar td.fc-day-top {
+        text-align: center;
+    }
+    .separator{
+        display: none;
+    }   
+    div#dashboard-upcoming-session .user-btn button {
+        display: none;
+    }
+    div#dashboard-mini-calendar {
+        width: 100%;
+        padding-right: 0;
+    }
+    #dashboard-upcoming-session .profile-image{
+        width: 50px;
+        height: 50px;
+        border-radius: 60px;
+    }
+    div#dashboard-upcoming-session {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    #dashboard-upcoming-session .amelio-messages-columns.sdsdsds {
+        background: #FFFFFF;
+        box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.04);
+        border-radius: 8px;
+        padding: 20px;
+        width: 100%;
+    }
+    .session-columns{
+        display: block;
+        margin: 0;
+        background: #FFFFFF;
+        box-shadow: 0px 7px 23px rgb(0 0 0 / 4%);
+        border-radius: 8px;
+        padding: 15px;
+    }
+}
+@media only screen and (max-width:768px) {
+   
+    .notification-section.active {
+        height: calc(100vh - 40vh);
+    }
+
+    .notification-section {
+        height: calc(100vh - 40vh);
+    }
+
+    span.message-new {
+      
+        font-size: 9px;
+        line-height: 14px;
+        letter-spacing: 0;
+        padding: 0.5px 5px;
+    }
+
+    .notification-section {
+        max-width: 40.916667vw;
+        top: 140px;
+        right: 110px;
+        padding: 20px;
+        border: 1px solid rgba(24, 24, 24, 0.06);
+        box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.04);
+        border-radius: 20px;
+    }
+    .notification-section .notification-section-heading h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .notification-section .notification-section-heading a {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .notification-section .notification-section-text .contact-image img {
+        max-width: 45px;
+        height: 45px;
+    }
+    .notification-section .notification-section-text .client-message .client-message-heading h6 {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .notification-section .notification-section-text .client-message .client-name p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .notification-section .notification-section-text .client-message .client-message-description p, .notification-section .notification-section-text .client-message .client-message-description p.para {
+
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+}
+
+
+@media only screen and (max-width:767px) {
+    /* .day-look-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 10px;
+} */
+     .safari.mac-os .amelio-welcome, .safari.mac-os .amelio-client-page, .safari.mac-os .buy-lead-main , .safari.mac-os .amelio-new-client-page{
+        margin-left: 0 !important;
+    } 
+    .dashboard-calendar{
+        margin-top: 20px;
+    }
+
+    .title-section h1 span{
+        display: block;
+    }
+
+    .amelio-sidebar{
+        background-color: transparent;
+    }
+    .notification-section {
+        max-width: 60.916667vw;
+        top: 0;
+        right: 25px;
+        margin-top: 71px;
+    }
+
+    .amelio-sidebar .amelio-sidebar-img a.mobile-logo {
+        width: 48px;
+    }
+
+    .amelio-sidebar ul li {
+        padding: 0;
+        margin-bottom: 6px;
+    }
+
+    .amelio-bar .buy-leads-mob-show {
+        display: flex !important;
+    }
+
+    .amelio-sidebar .amelio-bar a.white-arrow {
+        display: block;
+        /* text-align: right; */
+        padding: 0;
+        width: unset;
+    }
+
+    .amelio-sidebar .amelio-bar a.white-arrow:hover {
+        background: unset;
+        border-radius: unset;
+        width: unset;
+    }
+
+    .amelio-sidebar-img .mobile-logo {
+        display: block !important;
+    }
+
+    .amelio-sidebar .mobile.active {
+        left: 0;
+    }
+
+    .amelio-sidebar .hamburger-notification {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .amelio-sidebar .hamburger-notification .notification {
+        margin: 0 13px 0 0;
+        display: block;
+    }
+
+    .amelio-sidebar .hamburger-menu {
+        width: 48px;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.09);
+        border-radius: 8px;
+        padding: 15px 15px;
+    }
+
+    .amelio-sidebar .hamburger-menu .menu-icon {
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        margin-bottom: 6px;
+        transition: all 0.5s ease;
+    }
+    
+    .amelio-sidebar .hamburger-menu .menu-icon:nth-child(2) {
+        width: 100%;
+    }
+    
+    .amelio-sidebar .hamburger-menu span:last-child {
+        margin-bottom: 0;
+    }
+    
+    .amelio-sidebar .hamburger-menu.active .menu-icon:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .amelio-sidebar .hamburger-menu.active .menu-icon:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .amelio-sidebar .hamburger-menu.active .menu-icon:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .hamburger-notification .notification a {
+        display: block !important;
+    }
+
+    .amelio-sidebar .amelio-sidebar-img a img {
+        width: auto;
+    }
+
+    .dashboard-main {
+        flex-wrap: wrap;
+    }
+
+    .amelio-sidebar {
+        max-width: 100%;
+        z-index: 9;
+        position: fixed;
+        padding: 0;
+        top: 0;
+        display: inline-block;
+        height: auto;
+    } 
+    .dashboard-main.active-height .amelio-sidebar {
+        z-index: 9; 
+    }
+
+    .amelio-sidebar .amelio-sidebar-img a:first-child {
+        display: none;
+    }
+
+    .amelio-sidebar .amelio-sidebar-img a {
+        margin: inherit;
+    }
+
+    .amelio-sidebar .mobile {
+        display: flex;
+        flex-direction: column;
+        /* height: calc(100vh - (65px)); */
+        height:100%;
+        justify-content: space-between;
+        position: fixed;
+        top: 66px;
+        width: 100%;
+        left: -100%;
+        padding: 20PX 10px 20px 10px;
+        transition: all 0.3s;
+        background-color: #165342; 
+        padding-bottom: 70px;
+    }
+
+
+    .amelio-sidebar .amelio-leads {
+        display: none;
+    }
+
+    .amelio-welcome {
+        padding: 30px 20px;
+        max-width: 100%;
+        border-radius: 20px 20px 0 0;
+        z-index: 1;
+        height: auto;
+        margin-top: 71px;
+    }
+
+    .title-section {
+        padding: 0 0 20px 0;
+    }
+
+    .title-btn a img {
+        width: auto;
+    }
+
+    .client-sessions,
+    .unread-message {
+        width: 48%;
+    }
+
+    .buy-leads {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .buy-leads .client-img img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .amelio-sidebar .amelio-bar a img,
+    .amelio-sidebar .amelio-logout a img {
+        width: 24px;
+        height: 24px;
+        margin-right: 15px;
+    }
+
+    span.message-new {
+        font-size: 11px;
+        line-height: 20px;
+        padding: 0 6px;
+        margin: 0 0 0 12px;
+    }
+
+    .amelio-sidebar .amelio-bar a {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 14px 15px;
+        border-radius: 51px;
+    }
+
+    .amelio-sidebar-img {
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #165342;
+        padding: 12px;
+    }
+
+    .amelio-sidebar .amelio-leads img {
+        width: 16px;
+    }
+
+    .amelio-sidebar .amelio-leads p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+
+    .amelio-sidebar a {
+        font-size: 16px;
+    }
+
+    .amelio-sidebar .amelio-leads a img {
+        width: 6px;
+    }
+
+    .amelio-logout {
+        width: 40%;
+        margin: 20px auto 20px;
+        border-radius: 50px;
+    }
+
+    .amelio-logout a {
+        padding: 14px;
+    }
+
+    .title-section h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .day-look h2 {
+        font-size: 20px;
+        margin: 0 0 20px 0;
+    }
+
+    .client-content p {
+        font-size: 36px;
+        padding: 0;
+    }
+
+    .client-content-wrap p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 0 20px 0;
+    }
+
+    .client-content a,
+    .client-content-buy-leads a:last-child {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .client-content img,
+    .client-content-buy-leads a:last-child img {
+        height: auto;
+        width: auto;
+        margin: 0 0 0 8px;
+    }
+
+    .client-content-buy-leads a:first-child img {
+        width: auto;
+    }
+
+    .client-content-buy-leads p {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 20px 0 20px 0;
+    }
+
+    .client-content,
+    .client-content-buy-leads {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .upcoming-title-btn h2,
+    .amelio-messages .amelio-message-row .message-heading h2 {
+        font-size: 20px;
+    }
+
+    .amelio-messages {
+        max-width: 100%;
+        padding: 30px 20px;
+    }
+
+    .amelio-messages .amelio-message-row .message-link a,
+    .upcoming-title-btn a {
+        font-size: 14px;
+    }
+
+    .upcoming-title-btn a {
+        padding: 0;
+        line-height: 24px;
+        border: 0;
+
+    }
+
+    .amelio-messages .amelio-message-row .message-link {
+        padding: 0;
+    }
+
+    .amelio-messages .amelio-message-row .message-link a {
+        padding: 8px 25px;
+        display: block;
+        line-height: 22px;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message .text-message-heading h6 {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message .text-message-heading p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message {
+        width: auto;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message .text-message-description p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .amelio-messages .amelio-messages-columns .profile-image {
+        width: 50px;
+        height: 50px;
+        margin: 0 0 20px 0;
+    }
+
+    .amelio-messages .amelio-messages-columns .profile-image h3 {
+        font-size: 15px;
+    }
+
+    /* .amelio-messages .amelio-messages-columns .text-message .text-message-heading {
+        padding-bottom: 20px;
+    } */
+
+    .amelio-messages .amelio-message-row {
+        padding-bottom: 20px;
+    }
+
+    .amelio-messages-wrap {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .amelio-messages .amelio-messages-columns {
+        width: 100%;
+        margin-bottom: 10px;
+        justify-content: initial;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .amelio-messages .amelio-message-row a{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        border-radius: none;
+        border:none;
+        padding: 0;
+    }
+    .amelio-messages .amelio-message-row h2
+
+    .upcoming-title-btn a{
+        padding: 6px 28px;
+        border-radius: 55px;
+        border:1px solid #165342;
+    }
+
+    .upcoming-title-btn h2, .amelio-messages .amelio-message-row .message-heading h2, .amelio-messages .amelio-message-row h2 {
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: -0.02em;    
+    }
+    .amelio-messages .amelio-messages-columns:hover .text-message-description p {
+        font-weight: 400;
+        opacity: 1;
+    }
+    .title-section .title-btn {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .notification-section .notification-section-text {
+        padding: 12px 0;
+        display: flex;
+        border-top: 1px solid #0000001A;
+    }
+    .notification-section .notification-section-text .client-message {
+        padding-left: 10px;
+    }
+    .notification-section {
+        max-width: 100%;
+        top:71px;
+        right: 0;
+        background: #F0EDE4;
+        padding: 15px;
+        position: absolute;
+        height: initial;
+        margin-top: 0;
+    }
+    .notification-section.active {
+        height: 100%;
+    }
+    .amelio-messages {
+        max-width: 100%;
+        padding: 30px 20px;
+    }
+    .amelio-welcome {
+        padding: 30px 20px;
+    }
+
+    .amelio-messages .amelio-messages-columns .profile-image {
+        display: none;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message .text-message-heading {
+        padding-bottom: 0;
+        /* flex-direction: column; */
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message .text-message-heading h6 {
+        align-self: flex-start;
+        order: 1;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message .text-message-heading p {
+        order: 2;
+    }
+
+    .amelio-messages .amelio-messages-columns .text-message .text-message-description p {
+        font-size: 12px;
+        line-height: 18px;
+        /* white-space: nowrap; */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .client-content-buy-leads p {
+        padding: 0;
+    }  
+}
+
+
+@media only screen and (max-width: 414px) {
+    .amelio-sidebar .amelio-bar a:hover {
+        /* padding: 10px 20px; */
+        background: rgba(133, 165, 169, 0.26);
+        border-radius: 51px;
+        width: 100%;
+    }
+
+    /* .amelio-sidebar-img a:last-child {
+        display: block !important;
+    } */
+    .amelio-logout {
+        width: 100%;
+    }
+    .title-section h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .amelio-welcome {
+        padding: 34px 20px;
+        border-radius: 20px 20px 0 0;
+        margin-top: 71px;
+    }
+
+    .title-section {
+        padding: 0 8px 26px 0;
+    }
+    .amelio-welcome hr {
+        margin: 0 0 23px 0;
+    }
+    .day-look h2 {
+        font-size: 24px;
+        line-height: 26px;
+        margin: 0 0 21px 0;
+    }
+    .client-content p {
+        font-size: 30px;
+        line-height: 121%;
+    }
+    .client-content-wrap p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 0 10px 0;
+    }
+    .client-content-buy-leads p {
+        line-height: 24px;
+        padding: 10px 0 10px;
+    }
+    .day-look {
+        margin: 0 0 23px 0;
+    }
+    .upcoming-title-btn a,
+    .amelio-messages .amelio-message-row .message-link a,
+    .amelio-messages .amelio-message-row .message-link {
+        padding: 0;
+        border: 0;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+    .client-content, .client-content-buy-leads {
+        padding: 20px 15px;
+    }
+
+    .client-sessions, .unread-message {
+        width: 48.5%;
+    }
+    
+    .buy-leads {
+        margin-top: 10px;
+    }
+
+    .amelio-messages .amelio-messages-columns {
+        width: 100%;
+    }
+
+    .upcoming-title-btn a:hover {
+        color: #165342;
+        background-color: #F0EDE4;
+    }
+
+    .amelio-messages .amelio-message-row .message-link:hover a {
+        color: #165342;
+    }
+
+    .amelio-messages .amelio-message-row .message-link:hover {
+        background-color: #F0EDE4;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .client-content a, .client-content-buy-leads a:last-child {
+        display: flex;
+        align-items: center;
+    }
+
+    .client-img img {
+        height: 134px;
+    }
+
+    .client-content, .client-content-buy-leads {
+        padding: 20px 10px 10px;
+    }
+
+    .client-content-wrap p {
+        padding: 0 0 3px 0;
+    }
+
+    .client-content-buy-leads p {
+        line-height: 24px;
+        padding: 10px 0 10px;
+    }
+
+    .amelio-messages .amelio-messages-columns {
+        padding: 16px 20px;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+
+    .client-sessions, .unread-message {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .buy-leads {
+        margin-top: 0;
+    }
+
+    .client-img img,
+    .buy-leads .client-img img {
+        height: 150px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 320px) {
+
+    .upcoming-title-btn h2 {
+        padding: 0 0 20px 0;
+    }
+}

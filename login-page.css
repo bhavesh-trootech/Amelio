@@ -1,0 +1,255 @@
+/* chirag start */
+
+
+
+/* chirag end */
+
+.loginpagesec .login-message{
+    color: #ff0000;
+    /* margin-top: 1.3888888888888888vw; */
+}
+
+.loginpagesec .login-message + .form-row {
+    display: none;
+}
+.lost-password-wrap{
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+}
+
+span.show-password-input{
+	display:none;
+}
+.loginpagesec {
+    padding-top: 4.583333333333333vw;
+    padding-bottom: 6.527777777777779vw;
+}
+
+.woocommerce form .form-row:last-child{
+padding:0;
+}
+
+.requirement-left-sec .woocommerce button.button{
+	padding:14px 73.5px;
+    letter-spacing: -0.02em;
+    font-size: 16px;
+	line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 2.2222222222222223vw;
+}
+.requirement-left-sec .woocommerce button.button:hover {
+    color: #165342;
+}
+
+
+label.woocommerce-form__label.woocommerce-form__label-for-checkbox.woocommerce-form-login__rememberme span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+	color:#181818;
+    font-family: 'Open Sans';
+}
+
+.requirement-right-sec.requirement-right::after{
+    background: url(/wp-content/uploads/2022/12/Frame-top.svg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -1px !important;
+}
+
+
+.requirement-sec .requirement-left-sec form.woocommerce-form.woocommerce-form-login.login{   
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+
+form.woocommerce-form.woocommerce-form-login.login{
+    border:none !important;
+    padding:0 !important;
+    margin:0 !important;
+}
+
+p.woocommerce-LostPassword.lost_password a {
+    color: #165342;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+}
+
+.requirement-sec h1{
+    line-height: 2.986111111111111vw;
+    letter-spacing: -0.022222222222222223vw;
+    padding-top: 1.3888888888888888vw;
+    padding-bottom: 2.1527777777777777vw;
+}
+
+.requirement-sec h2{
+    line-height: 2.430555555555556vw;
+    letter-spacing: -0.03333333333333333vw;
+    padding-bottom: 1.32778vw;
+    margin-bottom:0 !important;
+    width: 90%;
+}
+
+.requirement-sec h3{
+    line-height: 1.6666666666666667vw;
+    letter-spacing: -0.022222222222222223vw;
+}
+.requirement-left-sec > div{
+    padding:5.347222222222222vw 8.194444444444445vw 6.458333333333334vw 7.430555555555555vw;
+    margin-left: 2px !important;
+}
+
+.requirement-sec  .requirement-right-sec > div{
+    padding-left: 9.722222222222223vw;
+    padding-right: 4.305555555555555vw;
+    padding-top: 8.26388888888889vw;
+    padding-bottom: 7.291666666666667vw;
+
+}
+
+.requirement-right-sec .professional-join-btn a {
+    line-height: 1.66vw;
+    font-size:1.1111111111111112vw !important;
+    padding: 0.9722222222222222vw 1.6666666666666667vw;
+    border-radius: 4.375vw;
+    border: 0.069vw;
+    margin: 0 0 1.3888888888888888vw 0;
+    letter-spacing: -0.022222222222222223vw;
+}
+
+.requirement-right-sec .elementor-background-overlay{
+	display:none;
+}
+
+
+
+@media (max-width:1280px){
+.requirement-left-sec > div {
+    padding: 3.347222vw 4.194444vw 4.458333vw 4.430556vw;
+}    
+.requirement-sec h2{
+  line-height: 2.734375vw;
+}
+
+.requirement-right-sec .professional-join-btn a{
+font-size: 1.25vw !important;
+}
+
+}
+
+@media (max-width:1024px){
+
+.requirement-sec {
+    padding: 40px 30px;
+}
+
+.requirement-sec .elementor-container {
+    max-width: 100% !important ;
+    width:100%;
+}
+
+.requirement-right-sec .professional-join-btn a{
+font-size: 1.5625vw !important;
+}
+
+
+.requirement-left-sec > div {
+    padding: 3vw;
+}
+
+.requirement-sec h2{
+  line-height: 3.41796875vw;
+}
+
+}
+@media (max-width:768px){
+
+.requirement-sec {
+    padding: 40px 30px;
+}
+
+.requirement-right-sec .professional-join-btn a{
+font-size: 16px !important;
+}
+
+
+.requirement-right-sec .professional-join-btn a {
+
+    margin: 0 0 20px 0;
+}
+
+.requirement-sec .requirement-right-sec > div {
+    padding: 90px 20px 50px 20px;
+}
+
+.requirement-right-sec{
+margin-bottom:50px;
+}
+
+.requirement-left-sec > div {
+    padding: 30px;
+}
+
+.requirement-sec .requirement-right-sec > div {
+    padding: 130px 30px;
+
+}
+
+.requirement-right-sec.requirement-right::after{
+background: url(/wp-content/uploads/2022/12/Frame-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc(100% + 2px);
+    left: -1.5px !important;
+}
+}
+
+
+@media (max-width:500px){
+    .requirement-sec {
+        padding: 40px 0;
+    }
+
+p.woocommerce-LostPassword.lost_password {
+    padding: 5px 0;
+}
+
+.lost-password-wrap{
+	display:initial;
+}
+
+.requirement-left-sec .woocommerce a.button, .woocommerce button.button.alt, .woocommerce-page table.cart td.actions .button, .woocommerce-page #content table.cart td.actions .button, .woocommerce a.button.alt, .woocommerce .woocommerce-message a.button, .ast-site-header-cart .widget_shopping_cart .buttons .button.checkout, .woocommerce button.button.alt.disabled, .wc-block-grid__products .wc-block-grid__product .wp-block-button__link, .woocommerce a.button, .woocommerce button.button, .woocommerce .woocommerce-message a.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce input.button, .woocommerce input.button:disabled, .woocommerce input.button:disabled[disabled], .woocommerce input.button:disabled:hover, .woocommerce input.button:disabled[disabled]:hover, .woocommerce #respond input#submit, .woocommerce button.button.alt.disabled, .wc-block-grid__products .wc-block-grid__product .wp-block-button__link, .wc-block-grid__product-onsale {
+    margin-top: 15px;
+}
+
+
+
+.requirement-sec h1 {
+    padding: 15px 0;
+}
+
+.requirement-sec h2 {
+    line-height: 24px;
+    width: 100%;
+    padding: 0 0 10px 0;
+}
+
+.requirement-left-sec > div {
+    padding: 30px 20px;
+}
+
+.requirement-sec .requirement-right-sec > div {
+    padding: 70px 20px 0 20px;
+}
+
+.requirement-right-sec {
+    margin-bottom: 0;
+}
+
+}
